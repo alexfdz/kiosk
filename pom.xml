@@ -6,7 +6,7 @@
 	<artifactId>kisok-parent</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Kiosk name</parent>
+	<name>Kiosk name</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

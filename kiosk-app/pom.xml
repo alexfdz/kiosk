@@ -9,10 +9,11 @@
 		<version>0.1.0-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
-
+	
 	<artifactId>kisok-app</artifactId>
 	<packaging>apk</packaging>
-	<name>Kiosk Android Application</parent>
+	<name>Kiosk Android Application</name>
+
 
 	<dependencies>
 		<dependency>
