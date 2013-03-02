@@ -3,19 +3,23 @@ package com.a2devel.kisok.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class NewsPaperCategory extends Node {
+public class NewsPaperCategory {
 
 	public static final String DEFAULT_CATEGORY_ID = "general";
 
-	List<NewsPaper> newsPapers;
+	private List<NewsPaper> newsPapers;
 
-	public NewsPaperCategory(String id) {
-		super(id);
+	private String id;
+
+	private Area area;
+
+	public NewsPaperCategory(NewsPaperCategoryId id) {
+		this.id = id.getId();
 	}
 
 	public void addNewsPaper(NewsPaper newsPaper) {
 		if (newsPaper != null) {
-			newsPaper.setParent(this);
+			newsPaper.setCategory(this);
 			if (newsPapers == null) {
 				newsPapers = new ArrayList<NewsPaper>();
 			}
@@ -35,4 +39,49 @@ public class NewsPaperCategory extends Node {
 		return newsPapers;
 	}
 
+	public boolean isValid() {
+		if (id != null) {
+			if (newsPapers != null) {
+				for (NewsPaper newsPaper : newsPapers) {
+					if (!newsPaper.isValid()) {
+						return false;
+					}
+				}
+			}
+			return true;
+		}
+		return false;
+	}
+
+	public boolean hasNewsPapers() {
+		return newsPapers != null && !newsPapers.isEmpty();
+	}
+
+	public Area getArea() {
+		return area;
+	}
+
+	public void setArea(Area area) {
+		this.area = area;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	@Override
+	public String toString() {
+		StringBuffer buffer = new StringBuffer();
+		buffer.append(getClass().getSimpleName() + " - " + getId() + " [");
+
+		if (newsPapers != null) {
+			for (NewsPaper newsPaper : newsPapers) {
+				buffer.append("\n\t" + newsPaper.toString());
+			}
+		}
+
+		buffer.append("\n]");
+
+		return buffer.toString();
+	}
 }

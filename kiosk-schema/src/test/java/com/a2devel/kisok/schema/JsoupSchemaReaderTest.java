@@ -1,28 +1,32 @@
 package com.a2devel.kisok.schema;
 
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsNot.not;
 import static org.hamcrest.core.IsNull.notNullValue;
 
 import java.util.List;
 
-import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 import com.a2devel.kisok.exception.SchemaReaderException;
 import com.a2devel.kisok.model.Area;
-import com.a2devel.kisok.model.Node;
 
 public class JsoupSchemaReaderTest {
 
-	JsoupSchemaReader reader;
-	List<Area> areas;
+	static JsoupSchemaReader reader;
+	static List<Area> areas;
 
-	@Before
-	public void setup() throws SchemaReaderException {
-		String url = "http://kiosko.net/";
+	@BeforeClass
+	public static void setup() throws SchemaReaderException {
+		String url = "http://en.kiosko.net/";
 		reader = new JsoupSchemaReader(url);
 		areas = reader.resolveSchema();
+
+		for (Area area : areas) {
+			System.out.println(area.toString());
+		}
 	}
 
 	@Test
@@ -38,18 +42,21 @@ public class JsoupSchemaReaderTest {
 	}
 
 	@Test
-	public void allAreasMustHaveId() {
-		assertThatAllNodesHaveId(areas);
+	public void allElementsMustBeValid() {
+		assertThatAllNodesAreValid(areas);
 	}
 
-	private void assertThatAllNodesHaveId(List<? extends Node> nodes) {
+	private void assertThatAllNodesAreValid(List<Area> areas) {
 		if (areas != null) {
 			for (Area area : areas) {
-				assertThat(area.getId(), notNullValue());
-				assertThatAllNodesHaveId(area.getChildren());
+				assertNodeIsValid(area);
 			}
 		}
-
 	}
 
+	private void assertNodeIsValid(Area area) {
+		if (area != null) {
+			assertThat(area.isValid(), is(true));
+		}
+	}
 }
