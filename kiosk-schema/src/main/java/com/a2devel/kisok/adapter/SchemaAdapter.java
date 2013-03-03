@@ -1,35 +1,25 @@
 package com.a2devel.kisok.adapter;
 
-import java.util.ArrayList;
 import java.util.List;
 
+import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
 import com.a2devel.kisok.exception.SchemaReaderException;
 import com.a2devel.kisok.model.Area;
 
-public class SchemaAdapter extends JsoupSchemaAdapter {
+public abstract class SchemaAdapter {
 
-	private List<JsoupSchemaAdapter> adapters;
+	DocumentAdapter documentAdapter;
 
-	@SuppressWarnings("serial")
-	public SchemaAdapter() {
+	public abstract List<Area> adapt(List<Area> areas, Element element)
+			throws SchemaReaderException;
 
-		adapters = new ArrayList<JsoupSchemaAdapter>() {
-			{
-				add(new AreasSchemaAdapter());
-				add(new NewsPapersSchemaAdapter());
-			}
-		};
+	public Document resolveDocument(String url) throws SchemaReaderException {
+		return documentAdapter.adapt(url);
 	}
 
-	@Override
-	public List<Area> adapt(List<Area> areas, Element element)
-			throws SchemaReaderException {
-		for (JsoupSchemaAdapter adapter : adapters) {
-			areas = adapter.adapt(areas, element);
-		}
-		return areas;
+	public void setDocumentAdapter(DocumentAdapter documentAdapter) {
+		this.documentAdapter = documentAdapter;
 	}
-
 }

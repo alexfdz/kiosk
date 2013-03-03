@@ -1,0 +1,840 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="robots" content="index, follow" />
+		<title>Newspapers in USA. Today's press covers. Kiosko.net</title>
+		<link rel="dns-prefetch" href="//ajax.googleapis.com" />
+		<link rel="dns-prefetch" href="//img.kiosko.net" />
+		<meta name="Title" content="Newspapers in USA. Today's press covers. Kiosko.net" />
+		<meta name="Description"
+			content="Newspapers in USA (USA). Today's edition. International newspapers, financial and sports newspapers, tabloids, regional newspapers and local press. Best virtual newsstand on the internet" />
+
+		<meta name="keywords"
+			content="Newspapers, Daily, Press, Newsstand, Newsagent, Kiosk, General Press, Economic Newspapers, International Newspapers, Sport Press, Magazines" />
+
+		<meta http-equiv="refresh" content="3600" />
+		<meta property="fb:admins" content="1819306511" />
+		<meta property="fb:page_id" content="108911949132538" />
+		<script type="text/javascript"
+			src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="/theme/k2/css/kiosko2-C4E.css?a" />
+
+		<!--[if lt ie 7.]> <link rel="stylesheet" type="text/css" media="screen, 
+			projection" href="/theme/k2/css/fix_ie.css" /> <![endif] -->
+
+		<link rel="canonical" href="http://en.kiosko.net/us/" />
+
+		<script type="text/javascript" src="/common/js/klib-C4E.js"></script>
+
+		<script type="text/javascript" src="/js/lang.js"></script>
+		<script type="text/javascript"
+			src="http://partner.googleadservices.com/gampad/google_service.js">
+</script>
+		<script type="text/javascript">
+			GS_googleAddAdSenseService("ca-pub-1603342028555019");
+			GS_googleEnableAllServices();
+		</script>
+		<script type="text/javascript">
+
+			GA_googleAddSlot("ca-pub-1603342028555019", "center");
+
+			GA_googleAddSlot("ca-pub-1603342028555019", "top_big_banner");
+			GA_googleAddSlot("ca-pub-1603342028555019", "footer");
+			GA_googleFetchAds();
+			GA_googleAddAttr("country", "us");
+			GA_googleAddAttr("page", "country");
+			GA_googleAddAttr("subject", "home");
+			GA_googleFetchAds();
+		</script>
+
+	</head>
+	<body id="inicio">
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-56707-4']);
+			_gaq.push(['_trackPageview']);
+			_gaq.push(['_trackPageLoadTime']);
+			(function() {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript'; ga.async = true;
+			ga.src =
+			('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';
+			(document.getElementsByTagName('head')[0] ||
+			document.getElementsByTagName('body')[0]).appendChild(ga);
+			})();
+		</script>
+
+		<div id="cabecera">
+			<!-- logo kiosko.net -->
+			<h1>
+				<a href="/us/" rev="index" class="punch">
+					Today's newspapers in USA
+					<br />
+					Today's press covers
+				</a>
+				<a href="/" rev="index" class="logo" accesskey="0">
+					<span class="name">kiosko</span>
+					<span class="ext">.net</span>
+				</a>
+			</h1>
+			<!-- fin logo kiosko.net -->
+			<!-- news header -->
+			<div id="nwshd">
+				<a href="#" rel="external" target="_blank" class="logo">
+					<img src="http://www.gstatic.com/news/img/logo/en_us/news.gif" />
+				</a>
+				<div id="feed-news" class="lastest"></div>
+			</div>
+			<!-- FIN news header -->
+			<div class="barraMenu clearfix">
+				<ul>
+					<li id="menuFecha">Sunday, 3/Mar/2013</li>
+
+					<!-- li id="menuSuscribir"><a href="#" title="Suscribase a Kiosko" accesskey="5">Suscribete 
+						a KIOSKO</a></li -->
+				</ul>
+
+				<ul id="menu">
+
+
+					<li>
+						<a href="/" accesskey="1">Home</a>
+
+
+					</li>
+
+					<li>
+						<a href="/afr/" accesskey="2">Africa</a>
+
+						<ul class="submenu">
+							<li>
+								<a href="/eg/" title="Periodicos de Egypt">Egypt</a>
+							</li>
+							<li>
+								<a href="/ma/" title="Periodicos de Morocco">Morocco</a>
+							</li>
+							<li>
+								<a href="/ng/" title="Periodicos de Nigeria">Nigeria</a>
+							</li>
+							<li>
+								<a href="/za/" title="Periodicos de South Africa">South Africa</a>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="/asi/" accesskey="3">Asia-Pacific</a>
+
+						<ul class="submenu">
+							<li>
+								<a href="/au/" title="Periodicos de Australia">Australia</a>
+							</li>
+							<li>
+								<a href="/cn/" title="Periodicos de China">China</a>
+							</li>
+							<li>
+								<a href="/in/" title="Periodicos de India">India</a>
+							</li>
+							<li>
+								<a href="/il/" title="Periodicos de Israel">Israel</a>
+							</li>
+							<li>
+								<a href="/jp/" title="Periodicos de Japan">Japan</a>
+							</li>
+							<li>
+								<a href="/nz/" title="Periodicos de New Zealand">New Zealand</a>
+							</li>
+							<li>
+								<a href="/asi/geo/ph.html" title="Periodicos de Philippines">Philippines</a>
+							</li>
+							<li>
+								<a href="/asi/geo/ae.html" title="Periodicos de United Arab Emirates">United Arab Emirates</a>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="/eur/" accesskey="4">Europe</a>
+
+						<ul class="submenu">
+							<li>
+								<a href="/be/" title="Periodicos de Belgium">Belgium</a>
+							</li>
+							<li>
+								<a href="/dk/" title="Periodicos de Denmark">Denmark</a>
+							</li>
+							<li>
+								<a href="/fr/" title="Periodicos de France">France</a>
+							</li>
+							<li>
+								<a href="/de/" title="Periodicos de Germany">Germany</a>
+							</li>
+							<li>
+								<a href="/gr/" title="Periodicos de Greece">Greece</a>
+							</li>
+							<li>
+								<a href="/ie/" title="Periodicos de Ireland">Ireland</a>
+							</li>
+							<li>
+								<a href="/it/" title="Periodicos de Italy">Italy</a>
+							</li>
+							<li>
+								<a href="/nl/" title="Periodicos de Netherlands">Netherlands</a>
+							</li>
+							<li>
+								<a href="/no/" title="Periodicos de Norway">Norway</a>
+							</li>
+							<li>
+								<a href="/pl/" title="Periodicos de Poland">Poland</a>
+							</li>
+							<li>
+								<a href="/pt/" title="Periodicos de Portugal">Portugal</a>
+							</li>
+							<li>
+								<a href="/ru/" title="Periodicos de Russia">Russia</a>
+							</li>
+							<li>
+								<a href="/es/" title="Periodicos de Spain">Spain</a>
+							</li>
+							<li>
+								<a href="/se/" title="Periodicos de Sweden">Sweden</a>
+							</li>
+							<li>
+								<a href="/ch/" title="Periodicos de Switzerland">Switzerland</a>
+							</li>
+							<li>
+								<a href="/tr/" title="Periodicos de Turkey">Turkey</a>
+							</li>
+							<li>
+								<a href="/uk/" title="Periodicos de United Kingdom">United Kingdom</a>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="/iba/" accesskey="5">Latin America</a>
+
+						<ul class="submenu">
+							<li>
+								<a href="/ar/" title="Periodicos de Argentina">Argentina</a>
+							</li>
+							<li>
+								<a href="/bo/" title="Periodicos de Bolivia">Bolivia</a>
+							</li>
+							<li>
+								<a href="/br/" title="Periodicos de Brasil">Brasil</a>
+							</li>
+							<li>
+								<a href="/cl/" title="Periodicos de Chile">Chile</a>
+							</li>
+							<li>
+								<a href="/co/" title="Periodicos de Colombia">Colombia</a>
+							</li>
+							<li>
+								<a href="/cr/" title="Periodicos de Costa Rica">Costa Rica</a>
+							</li>
+							<li>
+								<a href="/cu/" title="Periodicos de Cuba">Cuba</a>
+							</li>
+							<li>
+								<a href="/do/" title="Periodicos de Dominican Rep.">Dominican Rep.</a>
+							</li>
+							<li>
+								<a href="/ec/" title="Periodicos de Ecuador">Ecuador</a>
+							</li>
+							<li>
+								<a href="/sv/" title="Periodicos de El Salvador">El Salvador</a>
+							</li>
+							<li>
+								<a href="/gt/" title="Periodicos de Guatemala">Guatemala</a>
+							</li>
+							<li>
+								<a href="/hn/" title="Periodicos de Honduras">Honduras</a>
+							</li>
+							<li>
+								<a href="/mx/" title="Periodicos de Mexico">Mexico</a>
+							</li>
+							<li>
+								<a href="/ni/" title="Periodicos de Nicaragua">Nicaragua</a>
+							</li>
+							<li>
+								<a href="/pa/" title="Periodicos de Panama">Panama</a>
+							</li>
+							<li>
+								<a href="/py/" title="Periodicos de Paraguay">Paraguay</a>
+							</li>
+							<li>
+								<a href="/pe/" title="Periodicos de Peru">Peru</a>
+							</li>
+							<li>
+								<a href="/pr/" title="Periodicos de Puerto Rico">Puerto Rico</a>
+							</li>
+							<li>
+								<a href="/uy/" title="Periodicos de Uruguay">Uruguay</a>
+							</li>
+							<li>
+								<a href="/ve/" title="Periodicos de Venezuela">Venezuela</a>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="/ca/" accesskey="6">Canada</a>
+
+						<ul class="submenu">
+							<li>
+								<a href="/ca/geo/British_Columbia.html" title="Periodicos de British Columbia">British Columbia
+								</a>
+							</li>
+							<li>
+								<a href="/ca/geo/Manitoba.html" title="Periodicos de Manitoba">Manitoba</a>
+							</li>
+							<li>
+								<a href="/ca/geo/Ontario.html" title="Periodicos de Ontario">Ontario</a>
+							</li>
+							<li>
+								<a href="/ca/geo/Quebec.html" title="Periodicos de Quebec">Quebec</a>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="/us/" accesskey="7">USA</a>
+
+						<ul class="submenu">
+							<li>
+								<a href="/us/geo/Alabama.html" title="Periodicos de Alabama">Alabama</a>
+							</li>
+							<li>
+								<a href="/us/geo/Arizona.html" title="Periodicos de Arizona">Arizona</a>
+							</li>
+							<li>
+								<a href="/us/geo/California.html" title="Periodicos de California">California</a>
+							</li>
+							<li>
+								<a href="/us/geo/Colorado.html" title="Periodicos de Colorado">Colorado</a>
+							</li>
+							<li>
+								<a href="/us/geo/Florida.html" title="Periodicos de Florida">Florida</a>
+							</li>
+							<li>
+								<a href="/us/geo/Georgia.html" title="Periodicos de Georgia">Georgia</a>
+							</li>
+							<li>
+								<a href="/us/geo/Illinois.html" title="Periodicos de Illinois">Illinois</a>
+							</li>
+							<li>
+								<a href="/us/geo/Indiana.html" title="Periodicos de Indiana">Indiana</a>
+							</li>
+							<li>
+								<a href="/us/geo/Maryland.html" title="Periodicos de Maryland">Maryland</a>
+							</li>
+							<li>
+								<a href="/us/geo/Massachusetts.html" title="Periodicos de Massachusetts">Massachusetts</a>
+							</li>
+							<li>
+								<a href="/us/geo/Michigan.html" title="Periodicos de Michigan">Michigan</a>
+							</li>
+							<li>
+								<a href="/us/geo/Minnesota.html" title="Periodicos de Minnesota">Minnesota</a>
+							</li>
+							<li>
+								<a href="/us/geo/Missouri.html" title="Periodicos de Missouri">Missouri</a>
+							</li>
+							<li>
+								<a href="/us/geo/New_Jersey.html" title="Periodicos de New Jersey">New Jersey</a>
+							</li>
+							<li>
+								<a href="/us/geo/New_York.html" title="Periodicos de New York">New York</a>
+							</li>
+							<li>
+								<a href="/us/geo/Ohio.html" title="Periodicos de Ohio">Ohio</a>
+							</li>
+							<li>
+								<a href="/us/geo/Oregon.html" title="Periodicos de Oregon">Oregon</a>
+							</li>
+							<li>
+								<a href="/us/geo/Pensilvania.html" title="Periodicos de Pennsylvania">Pennsylvania</a>
+							</li>
+							<li>
+								<a href="/us/geo/Texas.html" title="Periodicos de Texas">Texas</a>
+							</li>
+							<li>
+								<a href="/us/geo/Washington.html" title="Periodicos de Washington">Washington</a>
+							</li>
+							<li>
+								<a href="/us/geo/Washington_DC.html" title="Periodicos de Washington D.C.">Washington D.C.</a>
+							</li>
+						</ul>
+					</li>
+					<li class="diasAnteriores">
+						<form id="hemer" method="get" action="#" onsubmit="return false;">
+							<fieldset>
+								<select name="dia"
+									onchange="if (changeDate(this.value,'us','us','country')) _gaq.push(['_trackEvent','changeDate','us/country/us/'+this.value]);return false">
+									<option value="-">Archive</option>
+								</select>
+							</fieldset>
+						</form>
+					</li>
+				</ul>
+			</div><!-- /.barraMenu -->
+
+			<div class="publicidad">
+				<script type="text/javascript">GA_googleFillSlot("top_big_banner");</script>
+			</div>
+			<div id="miniadv">
+				<a href="http://itunes.apple.com/app/id359861641?mt=8" target="itunes">
+					<img src="/common/adv/minibanner_en.png">
+				</a>
+			</div>
+
+		</div>
+		<div id="content" class="conAux">
+
+			<div class="auxCol">
+				<div class="co">
+					<strong>
+						<a href="/us/" title="Periodicos de USA">USA</a>
+					</strong>
+				</div>
+
+				<ul>
+					<li class="reg">
+						<a href="/us/geo/Alabama.html" title="Periodicos de Alabama">Alabama</a>
+					</li>
+
+
+					<li class="reg">
+						<a href="/us/geo/Arizona.html" title="Periodicos de Arizona">Arizona</a>
+					</li>
+
+
+				</ul>
+
+
+			</div><!-- /auxCol -->
+
+
+			<div class="expo">
+
+
+				<div class="titPpal">
+					<h2>
+						<a href="/us/general.html" title="General press">General press</a>
+					</h2>
+					<ul><!--fix ie6 -->
+					</ul>
+				</div><!-- /titPpal -->
+				<div class="line">
+					<ul class="els5">
+
+
+
+						<li>
+							<a class="thcover" href="/us/np/newyork_times.html">
+								<img src="http://img.kiosko.net/2013/03/03/us/newyork_times.200.jpg"
+									alt="New York Times" width="200" />
+							</a>
+							<br />
+							<span class="pinfo">
+								<b>New York Times</b>
+							</span>
+						</li>
+
+
+
+
+
+						<li>
+							<a class="thcover" href="/us/np/washington_post.html">
+								<img
+									src="http://img.kiosko.net/2013/03/03/us/washington_post.200.jpg"
+									alt="Washington Post" width="200" />
+							</a>
+							<br />
+							<span class="pinfo">
+								<b>Washington Post</b>
+							</span>
+						</li>
+
+
+
+
+
+						<li>
+							<a class="thcover" href="/us/np/boston_globe.html">
+								<img src="http://img.kiosko.net/2013/03/03/us/boston_globe.200.jpg"
+									alt="Boston Globe" width="200" />
+							</a>
+							<br />
+							<span class="pinfo">
+								<b>Boston Globe</b>
+							</span>
+						</li>
+
+
+
+
+
+						<li>
+							<a class="thcover" href="/us/np/dallas_morning_news.html">
+								<img
+									src="http://img.kiosko.net/2013/03/03/us/dallas_morning_news.200.jpg"
+									alt="Dallas Morning News" width="200" />
+							</a>
+							<br />
+							<span class="pinfo">
+								<b>Dallas Morning News</b>
+							</span>
+						</li>
+
+
+
+
+
+						<li>
+							<a class="thcover" href="/us/np/latimes.html">
+								<img src="http://img.kiosko.net/2013/03/03/us/latimes.200.jpg"
+									alt="Los Angeles Times" width="200" />
+							</a>
+							<br />
+							<span class="pinfo">
+								<b>Los Angeles Times</b>
+							</span>
+						</li>
+
+
+
+					</ul>
+				</div><!-- /line -->
+
+				<div id="adv">
+					<script type="text/javascript">GA_googleFillSlot("center");</script>
+				</div>
+				<div class="titPpal">
+					<h2>Economic press</h2>
+					<ul><!--fix ie6 -->
+					</ul>
+				</div><!-- /titPpal -->
+				<div class="line">
+					<ul class="els1">
+
+
+
+						<li>
+							<div class="paperdate">02 Mar</div>
+							<a class="thcover" href="/us/np/wsj.html">
+								<img src="http://img.kiosko.net/2013/03/02/us/wsj.200.jpg"
+									alt="Wall Street Jounal" width="200" />
+							</a>
+							<br />
+							<span class="pinfo">
+								<b>Wall Street Jounal</b>
+							</span>
+						</li>
+
+
+
+					</ul>
+				</div><!-- /line -->
+
+
+				<div class="titPpal">
+					<h2>Magazine</h2>
+					<ul><!--fix ie6 -->
+					</ul>
+				</div><!-- /titPpal -->
+				<div class="line">
+					<ul class="els2">
+
+
+
+						<li>
+							<a class="thcover" href="/us/np/time.html">
+								<img src="http://img.kiosko.net/2013/03/03/us/time.200.jpg"
+									alt="Time Magazine" width="200" />
+							</a>
+							<br />
+							<span class="pinfo">
+								<b>Time Magazine</b>
+							</span>
+						</li>
+
+
+
+
+
+						<li>
+							<a class="thcover" href="/us/np/new_yorker.html">
+								<img src="http://img.kiosko.net/2013/03/03/us/new_yorker.200.jpg"
+									alt="The New Yorker" width="200" />
+							</a>
+							<br />
+							<span class="pinfo">
+								<b>The New Yorker</b>
+							</span>
+						</li>
+
+
+
+					</ul>
+				</div><!-- /line -->
+
+
+
+				<div class="titPpal">
+					<h2>... 43 newspapers in USA</h2>
+					<ul><!--fix ie6 -->
+					</ul>
+				</div><!-- /titPpal -->
+
+
+				<div class="line">
+					<ul class="els5">
+
+
+
+						<li>
+							<a class="thcover" href="/us/np/chicago_tribune.html">
+								<img
+									src="http://img.kiosko.net/2013/03/03/us/chicago_tribune.200.jpg"
+									alt="Chicago Tribune" width="200" />
+							</a>
+							<br />
+							<span class="pinfo">
+								<b>Chicago Tribune</b>
+							</span>
+						</li>
+
+
+
+
+
+						<li>
+							<a class="thcover" href="/us/np/nuevo_herald.html">
+								<img src="http://img.kiosko.net/2013/03/03/us/nuevo_herald.200.jpg"
+									alt="El Nuevo Herald" width="200" />
+							</a>
+							<br />
+							<span class="pinfo">
+								<b>El Nuevo Herald</b>
+							</span>
+						</li>
+
+
+
+
+
+						<li>
+							<a class="thcover" href="/us/np/miami_herald.html">
+								<img src="http://img.kiosko.net/2013/03/03/us/miami_herald.200.jpg"
+									alt="Miami Herald" width="200" />
+							</a>
+							<br />
+							<span class="pinfo">
+								<b>Miami Herald</b>
+							</span>
+						</li>
+
+
+
+
+
+						<li>
+							<a class="thcover" href="/us/np/newyork_post.html">
+								<img src="http://img.kiosko.net/2013/03/03/us/newyork_post.200.jpg"
+									alt="New York Post" width="200" />
+							</a>
+							<br />
+							<span class="pinfo">
+								<b>New York Post</b>
+							</span>
+						</li>
+
+
+
+
+
+						<li>
+							<a class="thcover" href="/us/np/sf_chronicle.html">
+								<img src="http://img.kiosko.net/2013/03/03/us/sf_chronicle.200.jpg"
+									alt="San Francisco Chronicle" width="200" />
+							</a>
+							<br />
+							<span class="pinfo">
+								<b>San Francisco Chronicle</b>
+							</span>
+						</li>
+
+
+
+					</ul>
+				</div><!-- /line -->
+
+			</div><!-- /expo -->
+
+			<div id="pie" class="i3">
+				<div class="publicidad">
+					<script type="text/javascript">GA_googleFillSlot("footer");</script>
+				</div>
+
+				<div class="cajaPie" id="about">
+					<span class="tit">
+						Algo sobre
+						<span style="color:#810000;">Kiosko.net</span>
+					</span>
+					<div>
+						<p>
+							<span style="color:#810000;">Kiosko.net</span>
+							is a visual daily press directory that gives access to the
+							world's largest news sites and displays a readable image taken
+							from today's frontpage cover of each newspaper.
+						</p>
+					</div>
+				</div>
+
+				<div class="cajaPie" id="facebook">
+
+					<div>
+						<iframe
+							src="http://www.facebook.com/plugins/likebox.php?id=108911949132538&width=&connections=4&stream=false&header=false&height=220"
+							scrolling="no" frameborder="0"
+							style="border:none;overflow:hidden;width:250px;height:220px;"
+							allowTransparency="true"></iframe>
+					</div>
+				</div>
+
+				<div class="cajaPie" id="k4i">
+					<span class="tit">Kiosko for iPhone</span>
+					<div>
+						<a href="/apps/iphone/">
+							<img src="/common/img/k4iphone.png" align="right" />
+						</a>
+						<p>
+							The brand new
+							<a href="/apps/iphone/">Kiosko.net for iPhone and iPod Touch</a>
+							is ready in
+							<a href="http://itunes.apple.com/app/id359861641?mt=8">appStore</a>
+							.
+						</p>
+						<p>
+							<a href="http://itunes.apple.com/app/id359861641?mt=8" style="color:#000">Access
+								the front pages of major newspapers around the world. A visual
+								experience and usability without precedents.</a>
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div><!-- /content -->
+
+		<div id="topMenu">
+			<ul class="lang"><!--li>< h3>Idioma</ h3></li -->
+				<li>
+					<a href="http://kiosko.net/" rel="nofollow translation"
+						onclick="_gaq.push(['_trackEvent','changeLang','en-es']);this.href+=location.pathname.substr(1);">[
+						espa&ntilde;ol
+						]
+					</a>
+				</li>
+
+				<li>
+					<span>[ english ]</span>
+				</li>
+				<li>
+					<a href="http://fr.kiosko.net/" rel="nofollow translation"
+						onclick="_gaq.push(['_trackEvent','changeLang','en-fr']);this.href+=location.pathname.substr(1);">[
+						fran&ccedil;ais
+						]
+					</a>
+				</li>
+
+			</ul>
+			<ul>
+				<li>
+					<a href="/about/about_us.html" rel="nofollow">about us</a>
+				</li>
+				<li>
+					<a href="/contact/contact.html" rel="nofollow">contact</a>
+				</li>
+
+				<li>
+					<a href="/help/faq.html" rel="nofollow">help</a>
+				</li>
+			</ul>
+		</div>
+
+
+		<div class="bottomPie">
+			<ul>
+				<li>&copy;
+					Kiosko.net
+				</li>
+				<li>
+					<a href="/about/terms_conditions.html">Terms and Conditions</a>
+				</li>
+			</ul>
+			<p class="ttt">Dise&ntilde;o
+				de
+				<a href="http://www.trestristestigres.com/" title="Designed by Tres Tristes Tigres">Tres Tristes
+					Tigres</a>
+			</p>
+		</div>
+
+	</body>
+	<script type="text/javascript">
+		var TODAY="3/Mar/2013"
+		var PUBDATE="2013-03-03"
+		hnews="http://news.google.com/news?cf=all&ned=us&hl=en&topic=h&num=8&output=rss";
+		$(document).ready(function(){
+		$("#menu").superfish();
+		});
+		$(window).load(function(){
+		$.get("/common/api/js/publish.js",updateDate);
+		});
+
+	</script>
+	<script type="text/javascript"
+		src="http://www.google.com/jsapi?key=ABQIAAAAZiMdJ2zpYsHYvxp6sCmUvRTe537brbNIjNEDr7QM5qMUX2TyuhTiN4ztCX7aat3GhrkY-FF2-ON0nQ"></script>
+	<script type="text/javascript">
+		function initialize() {
+		/* HEADER NEWS RSS */
+		if ( typeof(hnews) == 'string' && hnews && $("#nwshd").length ) {
+		var feed = new google.feeds.Feed(hnews);
+		feed.setNumEntries(8);
+		feed.load(loadNewsHeader);
+		}
+		/* Paper RSS */
+		if ( typeof(paperRSS) == 'string' && paperRSS && $("#feed-paper").length
+		) {
+		var feed = new google.feeds.Feed(paperRSS);
+		feed.setNumEntries(8);
+		feed.load(loadRssPaper);
+		}
+		/* Paper twitter timeline */
+		if ( typeof(paperTwitter) == 'string' && paperTwitter &&
+		$("#timeline-paper") ) {
+		loadTwitterData(paperTwitter);
+		}
+		/* kiosko facebook livebox */
+		if ( $("#fb-frame") ) {
+		fb = $("#fb-frame");
+		w=""; c=4;
+		if ( fb ) {
+		w = fb.outerWidth();
+		c = parseInt((w-20)/55);
+		}
+		fb.attr('src',"http://www.facebook.com/plugins/likebox.php?id=243510920909&width="+
+		w +"&connections="+ c +"&stream=false&header=false&height=220");
+		}
+		}
+		google.setOnLoadCallback(initialize);
+		google.load("feeds", "1");
+	</script>
+
+</html>
+

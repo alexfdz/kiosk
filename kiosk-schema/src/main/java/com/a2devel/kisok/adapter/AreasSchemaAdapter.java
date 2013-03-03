@@ -10,7 +10,7 @@ import org.jsoup.select.Elements;
 import com.a2devel.kisok.exception.SchemaReaderException;
 import com.a2devel.kisok.model.Area;
 
-public class AreasSchemaAdapter extends JsoupSchemaAdapter {
+public class AreasSchemaAdapter extends SchemaAdapter {
 
 	private String baseUri;
 
@@ -23,8 +23,7 @@ public class AreasSchemaAdapter extends JsoupSchemaAdapter {
 
 		baseUri = element.baseUri();
 
-		List<Area> resolvedAreas = resolveAreas(element,
-				"#menu li:has(.submenu)");
+		List<Area> resolvedAreas = resolveMainAreas(element);
 		if (resolvedAreas != null) {
 			areas.addAll(resolvedAreas);
 		}
@@ -32,45 +31,59 @@ public class AreasSchemaAdapter extends JsoupSchemaAdapter {
 		return areas;
 	}
 
-	protected List<Area> resolveChildAreas(Element areaElement)
+	protected List<Area> resolveMainAreas(Element rootElement)
 			throws SchemaReaderException {
-		return resolveAreas(areaElement, "ul li a[href]");
-	}
 
-	protected Area resolveArea(Element areaElement)
-			throws SchemaReaderException {
-		Area area = null;
-		if (areaElement != null) {
-			Element anchor = resolveAnchor(areaElement);
-			area = resolveAreaByAnchor(anchor);
-			if (area != null) {
-				area.setAreas(resolveChildAreas(areaElement));
-			}
-		}
-		return area;
-	}
-
-	protected List<Area> resolveAreas(Element rootElement, String cssSelector)
-			throws SchemaReaderException {
-		Elements elements = rootElement.select(cssSelector);
-		if (elements != null && !elements.isEmpty()) {
+		Elements anchors = rootElement
+				.select("#menu li:has(.submenu) a[accesskey]");
+		if (anchors != null && !anchors.isEmpty()) {
 			List<Area> areas = new ArrayList<Area>();
-			for (Element element : elements) {
-				Area area = resolveArea(element);
+			for (Element element : anchors) {
+				Area area = resolveAreaByAnchor(element);
 				if (area != null) {
 					areas.add(area);
 				}
 			}
 			return areas;
-		} else {
-			String href = rootElement.attr("href");
-			return resolveChildAreasByUrl(baseUri + href);
+		}
+		return null;
+	}
+
+	protected Area resolveAreaByAnchor(Element anchor)
+			throws SchemaReaderException {
+		if (anchor != null) {
+			String areaId = resolveAreaIdByAnchor(anchor);
+			if (areaId != null) {
+				Area area = new Area();
+				area.setId(areaId);
+				area.setName(anchor.text());
+				setAreaChildsByAnchor(area, anchor);
+				return area;
+			}
+		}
+		return null;
+	}
+
+	protected void setAreaChildsByAnchor(Area parent, Element anchor)
+			throws SchemaReaderException {
+		if (parent != null && anchor != null) {
+
+			String href = anchor.attr("href");
+			Document document = resolveDocument(baseUri + href);
+
+			String headerId = getHeaderAnchorHref(document);
+
+			if (parent.getId().equals(headerId)) {
+				parent.setAreas(resolveRegionAreas(document));
+			} else {
+				parent.setAreas(resolveLineAreas(document));
+			}
+
 		}
 	}
 
-	private List<Area> resolveChildAreasByUrl(String url)
+	private List<Area> resolveRegionAreas(Document document)
 			throws SchemaReaderException {
-		Document document = resolveDocument(url);
 		Elements anchors = document.select("li.reg a[href]");
 		List<Area> areas = new ArrayList<Area>();
 		if (anchors != null && anchors.size() > 0) {
@@ -84,11 +97,28 @@ public class AreasSchemaAdapter extends JsoupSchemaAdapter {
 		return areas;
 	}
 
-	protected Element resolveAnchor(Element element) {
-		if (element != null) {
-			Elements anchors = element.select("a[href]");
-			if (anchors != null && anchors.size() > 0) {
-				return anchors.get(0);
+	private List<Area> resolveLineAreas(Document document)
+			throws SchemaReaderException {
+
+		Elements anchors = document.select("div.titPpal li a[href]");
+		List<Area> areas = new ArrayList<Area>();
+		if (anchors != null && anchors.size() > 0) {
+			for (Element anchor : anchors) {
+				Area area = resolveAreaByAnchor(anchor);
+				if (area != null) {
+					areas.add(area);
+				}
+			}
+		}
+		return areas;
+	}
+
+	private String getHeaderAnchorHref(Document document) {
+		if (document != null) {
+			Elements headerAnchors = document
+					.select("div.auxCol div.co strong a[href]");
+			if (headerAnchors != null && headerAnchors.size() == 1) {
+				return headerAnchors.attr("href");
 			}
 		}
 		return null;
@@ -100,17 +130,4 @@ public class AreasSchemaAdapter extends JsoupSchemaAdapter {
 		}
 		return null;
 	}
-
-	protected Area resolveAreaByAnchor(Element anchor) {
-		if (anchor != null) {
-			String areaId = resolveAreaIdByAnchor(anchor);
-			if (areaId != null) {
-				Area area = new Area();
-				area.setId(areaId);
-				return area;
-			}
-		}
-		return null;
-	}
-
 }

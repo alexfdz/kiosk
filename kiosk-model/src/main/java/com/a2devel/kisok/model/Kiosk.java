@@ -29,4 +29,60 @@ public class Kiosk {
 		}
 	}
 
+	@Override
+	public String toString() {
+		StringBuffer buffer = new StringBuffer();
+		buffer.append(getClass().getSimpleName() + " [");
+
+		if (areas != null) {
+			for (Area area : areas) {
+				buffer.append("\n\t" + area.toString());
+			}
+		}
+
+		buffer.append("\n]");
+
+		return buffer.toString();
+	}
+
+	public int areasCount() {
+		int i = 0;
+		if (areas != null) {
+			for (Area area : areas) {
+				i = i + area.areasCount();
+			}
+		}
+		return i;
+	}
+
+	public int categoriesCount() {
+		int i = 0;
+		if (areas != null) {
+			for (Area area : areas) {
+				i = i + area.categoriesCount();
+			}
+		}
+		return i;
+	}
+
+	public int newsPapersCount() {
+		int i = 0;
+		if (areas != null) {
+			for (Area area : areas) {
+				i = i + area.newsPapersCount();
+			}
+		}
+		return i;
+	}
+
+	public String[] emptyAreas() {
+		List<String> emtpyAreas = new ArrayList<String>();
+		if (areas != null) {
+			for (Area area : areas) {
+				emtpyAreas.addAll(area.emptyAreas());
+			}
+		}
+		return emtpyAreas.toArray(new String[emtpyAreas.size()]);
+	}
+
 }

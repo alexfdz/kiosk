@@ -30,7 +30,6 @@
 	<modules>
 		<module>kiosk-model</module>
 		<module>kiosk-schema</module>
-		<module>kiosk-app</module>
 	</modules>
 
 	<dependencies>

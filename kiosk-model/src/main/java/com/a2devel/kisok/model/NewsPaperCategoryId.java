@@ -4,7 +4,8 @@ public enum NewsPaperCategoryId {
 
 	GENERAL("general", "General press"), SPORT("sport", "Sports newspapers"), ECONOMY(
 			"economy", "Economic press"), MAGAZINE("magazine", "Magazine"), TABLOID(
-			"tabloid", "Tabloid"), POPULAR("popular", "Tabloid");
+			"tabloid", "Tabloid"), POPULAR("popular", "Tabloid"), FREE("free",
+			"Free newspapers");
 
 	private String id;
 	private String label;
@@ -30,7 +31,7 @@ public enum NewsPaperCategoryId {
 				}
 			}
 		}
-		return GENERAL;
+		return null;
 	}
 
 	public static NewsPaperCategoryId byId(String id) {
@@ -41,7 +42,7 @@ public enum NewsPaperCategoryId {
 				}
 			}
 		}
-		return GENERAL;
+		return null;
 	}
 
 }

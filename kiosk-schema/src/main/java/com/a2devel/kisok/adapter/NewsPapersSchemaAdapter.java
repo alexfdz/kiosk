@@ -13,7 +13,7 @@ import com.a2devel.kisok.model.NewsPaper;
 import com.a2devel.kisok.model.NewsPaperCategory;
 import com.a2devel.kisok.model.NewsPaperCategoryId;
 
-public class NewsPapersSchemaAdapter extends JsoupSchemaAdapter {
+public class NewsPapersSchemaAdapter extends SchemaAdapter {
 
 	private String baseUri;
 
@@ -60,7 +60,7 @@ public class NewsPapersSchemaAdapter extends JsoupSchemaAdapter {
 					lineElements.add(nextLineElement);
 					nextLineElement = nextLineElementSibling(nextLineElement);
 				}
-
+				System.out.println();
 				NewsPaperCategory category = resolveNewsPapersCategory(
 						expoElement, lineElements);
 				area.addNewsPaperCategory(category);
@@ -79,9 +79,18 @@ public class NewsPapersSchemaAdapter extends JsoupSchemaAdapter {
 		if (header != null) {
 			Elements anchorElements = header.getElementsByTag("a");
 			if (anchorElements != null && anchorElements.size() == 1) {
-				return resolveCategoryByAnchor(anchorElements.get(0));
+				NewsPaperCategory category = resolveCategoryByAnchor(anchorElements
+						.get(0));
+				if (category != null) {
+					return category;
+				} else {
+					return resolveCategoryByLineElements(
+							NewsPaperCategoryId.GENERAL.getLabel(),
+							lineElements);
+				}
 			} else {
-				return resolveCategoryByHeaderText(header, lineElements);
+				return resolveCategoryByLineElements(header.text(),
+						lineElements);
 			}
 		}
 
@@ -102,20 +111,17 @@ public class NewsPapersSchemaAdapter extends JsoupSchemaAdapter {
 		return null;
 	}
 
-	private NewsPaperCategory resolveCategoryByHeaderText(Element header,
+	private NewsPaperCategory resolveCategoryByLineElements(String header,
 			Elements lineElements) throws SchemaReaderException {
 
 		NewsPaperCategory category = null;
+		NewsPaperCategoryId categoryId = NewsPaperCategoryId.byLabel(header);
 
-		if (header != null) {
-			String label = header.text();
-			NewsPaperCategoryId categoryId = NewsPaperCategoryId.byLabel(label);
-			if (categoryId != null) {
-				category = new NewsPaperCategory();
-				category.setId(categoryId.getId());
-				List<NewsPaper> newsPapers = resolveNewsPapersByLineElements(lineElements);
-				category.setNewsPapers(newsPapers);
-			}
+		if (categoryId != null) {
+			category = new NewsPaperCategory();
+			category.setId(categoryId.getId());
+			List<NewsPaper> newsPapers = resolveNewsPapersByLineElements(lineElements);
+			category.setNewsPapers(newsPapers);
 		}
 		return category;
 	}
@@ -193,9 +199,6 @@ public class NewsPapersSchemaAdapter extends JsoupSchemaAdapter {
 						+ href);
 				category.setNewsPapers(newsPapers);
 				return category;
-			} else {
-				throw new SchemaReaderException("Can't resolve the category "
-						+ id + "for href = " + href);
 			}
 		}
 		return null;
@@ -231,7 +234,9 @@ public class NewsPapersSchemaAdapter extends JsoupSchemaAdapter {
 	}
 
 	private boolean isLineElement(Element element) {
-		return element != null && "line".equals(element.className());
+		return element != null
+				&& ("line".equals(element.className()) || "noline"
+						.equals(element.className()));
 	}
 
 }

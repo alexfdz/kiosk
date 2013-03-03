@@ -24,6 +24,9 @@ public class Area {
 	@XmlAttribute(required = true)
 	private String id;
 
+	@XmlAttribute(required = true)
+	private String name;
+
 	public void addNewsPaperCategory(NewsPaperCategory category) {
 		if (category != null) {
 			if (newsPapersCategories == null) {
@@ -61,6 +64,14 @@ public class Area {
 				addArea(child);
 			}
 		}
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public String getId() {
@@ -106,7 +117,7 @@ public class Area {
 	}
 
 	public boolean isValid() {
-		if (id != null) {
+		if (id != null && name != null) {
 			if (areas != null) {
 				for (Area child : areas) {
 					if (!child.isValid()) {
@@ -130,6 +141,64 @@ public class Area {
 		Area area = new Area();
 		area.setId(id);
 		return area;
+	}
+
+	public int areasCount() {
+		int i = 1;
+		if (areas != null) {
+			for (Area area : areas) {
+				i = i + area.areasCount();
+			}
+		}
+		return i;
+	}
+
+	public int categoriesCount() {
+		int i = 0;
+
+		if (newsPapersCategories != null) {
+			i = newsPapersCategories.size();
+		}
+
+		if (areas != null) {
+			for (Area area : areas) {
+				i = i + area.categoriesCount();
+			}
+		}
+		return i;
+	}
+
+	public int newsPapersCount() {
+		int i = 0;
+
+		if (newsPapersCategories != null) {
+			for (NewsPaperCategory category : newsPapersCategories) {
+				i = i + category.newsPapersCount();
+			}
+		}
+
+		if (areas != null) {
+			for (Area area : areas) {
+				i = i + area.newsPapersCount();
+			}
+		}
+		return i;
+	}
+
+	public List<String> emptyAreas() {
+		List<String> emtpyAreas = new ArrayList<String>();
+
+		if (newsPapersCount() == 0) {
+			emptyAreas().add(getName());
+		} else {
+			if (areas != null) {
+				for (Area area : areas) {
+					emtpyAreas.addAll(area.emptyAreas());
+				}
+			}
+		}
+
+		return emtpyAreas;
 	}
 
 }

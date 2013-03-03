@@ -87,4 +87,11 @@ public class NewsPaperCategory {
 		category.setId(id);
 		return category;
 	}
+
+	public int newsPapersCount() {
+		if (newsPapers != null) {
+			return newsPapers.size();
+		}
+		return 0;
+	}
 }
