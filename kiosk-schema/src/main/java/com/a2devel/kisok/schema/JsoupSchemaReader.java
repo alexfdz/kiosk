@@ -10,6 +10,7 @@ import com.a2devel.kisok.adapter.JsoupSchemaAdapter;
 import com.a2devel.kisok.adapter.SchemaAdapter;
 import com.a2devel.kisok.exception.SchemaReaderException;
 import com.a2devel.kisok.model.Area;
+import com.a2devel.kisok.model.Kiosk;
 
 public class JsoupSchemaReader implements SchemaReader {
 
@@ -23,9 +24,12 @@ public class JsoupSchemaReader implements SchemaReader {
 	}
 
 	@Override
-	public List<Area> resolveSchema() throws SchemaReaderException {
+	public Kiosk resolveKiosk() throws SchemaReaderException {
 		Document document = resolveDocument();
-		return adapter.adapt(null, document);
+		List<Area> areas = adapter.adapt(null, document);
+		Kiosk kiosk = new Kiosk();
+		kiosk.setAreas(areas);
+		return kiosk;
 	}
 
 	protected Document resolveDocument() throws SchemaReaderException {

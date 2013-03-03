@@ -44,7 +44,7 @@ public class AreasSchemaAdapter extends JsoupSchemaAdapter {
 			Element anchor = resolveAnchor(areaElement);
 			area = resolveAreaByAnchor(anchor);
 			if (area != null) {
-				area.setChildren(resolveChildAreas(areaElement));
+				area.setAreas(resolveChildAreas(areaElement));
 			}
 		}
 		return area;
@@ -105,7 +105,9 @@ public class AreasSchemaAdapter extends JsoupSchemaAdapter {
 		if (anchor != null) {
 			String areaId = resolveAreaIdByAnchor(anchor);
 			if (areaId != null) {
-				return new Area(areaId);
+				Area area = new Area();
+				area.setId(areaId);
+				return area;
 			}
 		}
 		return null;

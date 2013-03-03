@@ -68,7 +68,7 @@ public class NewsPapersSchemaAdapter extends JsoupSchemaAdapter {
 		}
 
 		if (!area.isEmpty()) {
-			resolveAreasNewsPapers(area.getChildren());
+			resolveAreasNewsPapers(area.getAreas());
 		}
 	}
 
@@ -111,7 +111,8 @@ public class NewsPapersSchemaAdapter extends JsoupSchemaAdapter {
 			String label = header.text();
 			NewsPaperCategoryId categoryId = NewsPaperCategoryId.byLabel(label);
 			if (categoryId != null) {
-				category = new NewsPaperCategory(categoryId);
+				category = new NewsPaperCategory();
+				category.setId(categoryId.getId());
 				List<NewsPaper> newsPapers = resolveNewsPapersByLineElements(lineElements);
 				category.setNewsPapers(newsPapers);
 			}
@@ -151,7 +152,10 @@ public class NewsPapersSchemaAdapter extends JsoupSchemaAdapter {
 			String name = resolveNewsPaperNameByImage(anchor.child(0));
 
 			if (id != null && name != null) {
-				return new NewsPaper(id, name);
+				NewsPaper newsPaper = new NewsPaper();
+				newsPaper.setId(id);
+				newsPaper.setName(name);
+				return newsPaper;
 			}
 		}
 
@@ -183,7 +187,8 @@ public class NewsPapersSchemaAdapter extends JsoupSchemaAdapter {
 			String id = resolveCategoryIdByHref(href);
 			NewsPaperCategoryId categoryId = NewsPaperCategoryId.byId(id);
 			if (categoryId != null) {
-				NewsPaperCategory category = new NewsPaperCategory(categoryId);
+				NewsPaperCategory category = new NewsPaperCategory();
+				category.setId(categoryId.getId());
 				List<NewsPaper> newsPapers = resolveNewsPapersByUrl(baseUri
 						+ href);
 				category.setNewsPapers(newsPapers);

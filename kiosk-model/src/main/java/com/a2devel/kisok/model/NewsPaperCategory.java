@@ -3,23 +3,28 @@ package com.a2devel.kisok.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class NewsPaperCategory {
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlType;
 
-	public static final String DEFAULT_CATEGORY_ID = "general";
+import com.a2devel.kisok.schema.Namespaces;
+
+@XmlType(namespace = Namespaces.NAMESPACE)
+@XmlAccessorType(XmlAccessType.FIELD)
+public class NewsPaperCategory {
 
 	private List<NewsPaper> newsPapers;
 
+	@XmlAttribute(required = true)
 	private String id;
 
-	private Area area;
-
-	public NewsPaperCategory(NewsPaperCategoryId id) {
-		this.id = id.getId();
+	public void setId(String id) {
+		this.id = id;
 	}
 
 	public void addNewsPaper(NewsPaper newsPaper) {
 		if (newsPaper != null) {
-			newsPaper.setCategory(this);
 			if (newsPapers == null) {
 				newsPapers = new ArrayList<NewsPaper>();
 			}
@@ -57,14 +62,6 @@ public class NewsPaperCategory {
 		return newsPapers != null && !newsPapers.isEmpty();
 	}
 
-	public Area getArea() {
-		return area;
-	}
-
-	public void setArea(Area area) {
-		this.area = area;
-	}
-
 	public String getId() {
 		return id;
 	}
@@ -83,5 +80,11 @@ public class NewsPaperCategory {
 		buffer.append("\n]");
 
 		return buffer.toString();
+	}
+
+	public static NewsPaperCategory create(String id) {
+		NewsPaperCategory category = new NewsPaperCategory();
+		category.setId(id);
+		return category;
 	}
 }

@@ -8,25 +8,24 @@ import static org.hamcrest.core.IsNull.notNullValue;
 import java.util.List;
 
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.a2devel.kisok.exception.SchemaReaderException;
 import com.a2devel.kisok.model.Area;
+import com.a2devel.kisok.model.Kiosk;
 
+@Ignore
 public class JsoupSchemaReaderTest {
 
 	static JsoupSchemaReader reader;
-	static List<Area> areas;
+	static Kiosk kiosk;
 
 	@BeforeClass
 	public static void setup() throws SchemaReaderException {
 		String url = "http://en.kiosko.net/";
 		reader = new JsoupSchemaReader(url);
-		areas = reader.resolveSchema();
-
-		for (Area area : areas) {
-			System.out.println(area.toString());
-		}
+		kiosk = reader.resolveKiosk();
 	}
 
 	@Test
@@ -37,13 +36,13 @@ public class JsoupSchemaReaderTest {
 	@Test
 	public void givenACorrectUrlAreasMustNotBeEmpty() {
 
-		assertThat(areas, notNullValue());
-		assertThat(areas.size(), not(0));
+		assertThat(kiosk.getAreas(), notNullValue());
+		assertThat(kiosk.getAreas().size(), not(0));
 	}
 
 	@Test
 	public void allElementsMustBeValid() {
-		assertThatAllNodesAreValid(areas);
+		assertThatAllNodesAreValid(kiosk.getAreas());
 	}
 
 	private void assertThatAllNodesAreValid(List<Area> areas) {

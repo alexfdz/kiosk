@@ -3,23 +3,29 @@ package com.a2devel.kisok.model;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlType;
+
+import com.a2devel.kisok.schema.Namespaces;
+
+@XmlType(namespace = Namespaces.NAMESPACE, name = "area")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Area {
 
+	@XmlElement(name = "category")
 	private List<NewsPaperCategory> newsPapersCategories;
 
-	private List<Area> children;
+	@XmlElement(name = "area")
+	private List<Area> areas;
 
-	private Area parent;
-
+	@XmlAttribute(required = true)
 	private String id;
-
-	public Area(String id) {
-		this.id = id;
-	}
 
 	public void addNewsPaperCategory(NewsPaperCategory category) {
 		if (category != null) {
-			category.setArea(this);
 			if (newsPapersCategories == null) {
 				newsPapersCategories = new ArrayList<NewsPaperCategory>();
 			}
@@ -36,32 +42,23 @@ public class Area {
 		}
 	}
 
-	public void addChild(Area child) {
+	public void addArea(Area child) {
 		if (child != null) {
-			child.setParent(this);
-			if (children == null) {
-				children = new ArrayList<Area>();
+			if (areas == null) {
+				areas = new ArrayList<Area>();
 			}
-			children.add(child);
+			areas.add(child);
 		}
 	}
 
-	public Area getParent() {
-		return parent;
+	public List<Area> getAreas() {
+		return areas;
 	}
 
-	public void setParent(Area parent) {
-		this.parent = parent;
-	}
-
-	public List<Area> getChildren() {
-		return children;
-	}
-
-	public void setChildren(List<Area> children) {
+	public void setAreas(List<Area> children) {
 		if (children != null) {
 			for (Area child : children) {
-				addChild(child);
+				addArea(child);
 			}
 		}
 	}
@@ -75,7 +72,7 @@ public class Area {
 	}
 
 	public boolean isEmpty() {
-		return children == null || children.isEmpty();
+		return areas == null || areas.isEmpty();
 	}
 
 	@Override
@@ -89,8 +86,8 @@ public class Area {
 			}
 		}
 
-		if (children != null) {
-			for (Area area : children) {
+		if (areas != null) {
+			for (Area area : areas) {
 				buffer.append("\n\t" + area.toString());
 			}
 		}
@@ -110,8 +107,8 @@ public class Area {
 
 	public boolean isValid() {
 		if (id != null) {
-			if (children != null) {
-				for (Area child : children) {
+			if (areas != null) {
+				for (Area child : areas) {
 					if (!child.isValid()) {
 						return false;
 					}
@@ -127,6 +124,12 @@ public class Area {
 			return true;
 		}
 		return false;
+	}
+
+	public static Area create(String id) {
+		Area area = new Area();
+		area.setId(id);
+		return area;
 	}
 
 }
