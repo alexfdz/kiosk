@@ -60,7 +60,6 @@ public class NewsPapersSchemaAdapter extends SchemaAdapter {
 					lineElements.add(nextLineElement);
 					nextLineElement = nextLineElementSibling(nextLineElement);
 				}
-				System.out.println();
 				NewsPaperCategory category = resolveNewsPapersCategory(
 						expoElement, lineElements);
 				area.addNewsPaperCategory(category);

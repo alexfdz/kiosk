@@ -186,19 +186,19 @@ public class Area {
 	}
 
 	public List<String> emptyAreas() {
-		List<String> emtpyAreas = new ArrayList<String>();
+		List<String> areasList = new ArrayList<String>();
 
 		if (newsPapersCount() == 0) {
-			emptyAreas().add(getName());
+			areasList.add(getName());
 		} else {
 			if (areas != null) {
 				for (Area area : areas) {
-					emtpyAreas.addAll(area.emptyAreas());
+					areasList.addAll(area.emptyAreas());
 				}
 			}
 		}
 
-		return emtpyAreas;
+		return areasList;
 	}
 
 }

@@ -14,11 +14,6 @@ public class FakeDocumentAdapter implements DocumentAdapter {
 	public Document adapt(String url) throws SchemaReaderException {
 		Document document = null;
 		String filePath = normalize(url);
-
-		if (this.getClass().getResourceAsStream(filePath) == null) {
-			System.out.println();
-		}
-
 		InputStream stream = this.getClass().getResourceAsStream(filePath);
 
 		try {

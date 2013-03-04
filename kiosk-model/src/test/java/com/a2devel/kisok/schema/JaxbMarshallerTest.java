@@ -1,10 +1,9 @@
 package com.a2devel.kisok.schema;
 
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.core.IsEqual.equalTo;
+import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsNot.not;
+import static org.junit.Assert.assertThat;
 
-import java.io.StringReader;
 import java.io.StringWriter;
 
 import javax.xml.bind.JAXBContext;
@@ -89,19 +88,12 @@ public class JaxbMarshallerTest {
 	@Test
 	public void testUnMarshalOperation() throws JAXBException {
 		JAXBContext context = JAXBContext.newInstance(Kiosk.class);
-		Marshaller m = context.createMarshaller();
-		m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-		StringWriter writer = new StringWriter();
-		m.marshal(kiosk, writer);
-
 		Unmarshaller um = context.createUnmarshaller();
-		Kiosk readedKiosk = (Kiosk) um.unmarshal(new StringReader(writer
-				.toString()));
+		Kiosk readedKiosk = (Kiosk) um.unmarshal(getClass()
+				.getResourceAsStream("/xml/kiosk.xml"));
 
-		assertThat(readedKiosk.getAreas().size(), equalTo(kiosk.getAreas()
-				.size()));
-		assertThat(readedKiosk.getAreas().get(0).getAreas().get(0)
-				.getNewsPapersCategories().size(), equalTo(kiosk.getAreas()
-				.get(0).getAreas().get(0).getNewsPapersCategories().size()));
+		assertThat(readedKiosk.areasCount(), is(312));
+		assertThat(readedKiosk.categoriesCount(), is(363));
+		assertThat(readedKiosk.newsPapersCount(), is(1107));
 	}
 }

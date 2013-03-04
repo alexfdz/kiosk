@@ -13,7 +13,7 @@ public class HttpDocumentAdapter implements DocumentAdapter {
 	public Document adapt(String url) throws SchemaReaderException {
 		Document document = null;
 		try {
-			document = Jsoup.connect(url).get();
+			document = Jsoup.connect(url).timeout(5000).get();
 		} catch (IOException e) {
 			throw new SchemaReaderException(e);
 		}

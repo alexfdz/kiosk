@@ -1,0 +1,2416 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:kiosk xmlns:ns2="http://kisok.a2devel.com">
+    <areas id="/afr/" name="Africa">
+        <category id="general">
+            <newsPapers id="al_ahram" name="Al-Ahrām - الأهرام اليومى"/>
+            <newsPapers id="beeld" name="Beeld"/>
+            <newsPapers id="au_fait" name="Au Fait"/>
+            <newsPapers id="le_soir_echos" name="Le Soir Echos"/>
+            <newsPapers id="star" name="The Star"/>
+        </category>
+        <area id="/eg/" name="Egypt">
+            <category id="general">
+                <newsPapers id="al_ahram" name="Al-Ahrām - الأهرام اليومى"/>
+                <newsPapers id="al_tahrir" name="Al-Tahrir - التحري"/>
+                <newsPapers id="al_akhbar" name="Al Akhbar - الأ"/>
+            </category>
+        </area>
+        <area id="/ma/" name="Morocco">
+            <category id="general">
+                <newsPapers id="almassae" name="جريدة المساء المغربية - Al Massae"/>
+                <newsPapers id="au_fait" name="Au Fait"/>
+                <newsPapers id="le_soir_echos" name="Le Soir Echos"/>
+            </category>
+            <category id="economy">
+                <newsPapers id="economiste" name="L'Economiste"/>
+            </category>
+        </area>
+        <area id="/ng/" name="Nigeria"/>
+        <area id="/za/" name="South Africa">
+            <category id="general">
+                <newsPapers id="beeld" name="Beeld"/>
+                <newsPapers id="star" name="The Star"/>
+                <newsPapers id="mercury" name="The Mercury"/>
+            </category>
+            <category id="economy">
+                <newsPapers id="business_day" name="Business Day"/>
+            </category>
+        </area>
+    </areas>
+    <areas id="/asi/" name="Asia-Pacific">
+        <category id="general">
+            <newsPapers id="gulf_news" name="Gulf News"/>
+            <newsPapers id="il_haaretz" name="Haaretz"/>
+            <newsPapers id="asahi_shimbun" name="The Asahi Shimbun"/>
+            <newsPapers id="times_india" name="The Times of India"/>
+            <newsPapers id="jerusalem_post" name="The Jerusalem Post"/>
+        </category>
+        <area id="/au/" name="Australia">
+            <category id="general">
+                <newsPapers id="au_daily_telegraph" name="The Daily Telegraph"/>
+                <newsPapers id="northern_territory" name="Northern Territory News"/>
+                <newsPapers id="au_australian" name="The Australian"/>
+                <newsPapers id="sydney_morning_herald" name="The Sydney Morning Herald"/>
+                <newsPapers id="herald_sun" name="Herald Sun"/>
+                <newsPapers id="courier_mail" name="The Courier-Mail"/>
+                <newsPapers id="west_australian" name="The West Australian"/>
+            </category>
+            <category id="economy">
+                <newsPapers id="au_financial_review" name="The Australian Financial Review"/>
+            </category>
+            <area id="/au/geo/Brisbane.html" name="Brisbane">
+                <category id="general">
+                    <newsPapers id="courier_mail" name="The Courier-Mail"/>
+                </category>
+            </area>
+            <area id="/au/geo/Canberra.html" name="Canberra">
+                <category id="general"/>
+            </area>
+            <area id="/au/geo/Darwin.html" name="Darwin">
+                <category id="general">
+                    <newsPapers id="northern_territory" name="Northern Territory News"/>
+                </category>
+            </area>
+            <area id="/au/geo/Melbourne.html" name="Melbourne">
+                <category id="general">
+                    <newsPapers id="herald_sun" name="Herald Sun"/>
+                </category>
+            </area>
+            <area id="/au/geo/Perth.html" name="Perth">
+                <category id="general">
+                    <newsPapers id="west_australian" name="The West Australian"/>
+                </category>
+            </area>
+            <area id="/au/geo/Sydney.html" name="Sydney">
+                <category id="general">
+                    <newsPapers id="au_daily_telegraph" name="The Daily Telegraph"/>
+                    <newsPapers id="au_australian" name="The Australian"/>
+                    <newsPapers id="au_financial_review" name="The Australian Financial Review"/>
+                    <newsPapers id="sydney_morning_herald" name="The Sydney Morning Herald"/>
+                </category>
+            </area>
+        </area>
+        <area id="/cn/" name="China">
+            <category id="general">
+                <newsPapers id="cn_jiefangjun_bao" name="解放军报 - Jiefangjun Bao"/>
+                <newsPapers id="china_daily" name="China Daily"/>
+                <newsPapers id="cn_global_times" name="The Global Times"/>
+                <newsPapers id="cn_renmin_ribao" name="人民网 - Renmin Ribao"/>
+            </category>
+            <area id="/cn/geo/Shanghai.html" name="Shanghai">
+                <category id="general"/>
+            </area>
+        </area>
+        <area id="/in/" name="India">
+            <category id="general">
+                <newsPapers id="telegraph_india" name="The Telegraph India"/>
+                <newsPapers id="times_india" name="The Times of India"/>
+                <newsPapers id="in_anandbazar_patrika" name="Ananda Bazar Patrika - আনন্দবাজার পত্রিকা"/>
+                <newsPapers id="in_eenadu" name="Eenadu - ఈనాడు"/>
+                <newsPapers id="hindustan_times" name="Hindustan Times"/>
+                <newsPapers id="pioneer" name="The Pioneer"/>
+            </category>
+            <category id="economy">
+                <newsPapers id="economic_times" name="The Economic Times"/>
+            </category>
+        </area>
+        <area id="/il/" name="Israel">
+            <category id="general">
+                <newsPapers id="il_haaretz" name="Haaretz"/>
+                <newsPapers id="jerusalem_post" name="The Jerusalem Post"/>
+                <newsPapers id="il_maariv" name="maariv"/>
+            </category>
+        </area>
+        <area id="/jp/" name="Japan">
+            <category id="general">
+                <newsPapers id="mainichi_shimbun" name="Mainichi Shimbun - 毎日新聞"/>
+                <newsPapers id="asahi_shimbun" name="The Asahi Shimbun"/>
+                <newsPapers id="mainichi_rt" name="Mainichi RT"/>
+                <newsPapers id="japan_times" name="The Japan Times"/>
+            </category>
+        </area>
+        <area id="/nz/" name="New Zealand">
+            <category id="general">
+                <newsPapers id="new_zealand_herald" name="The New Zealand Herald"/>
+                <newsPapers id="dominion_post" name="The Dominion Post"/>
+                <newsPapers id="press" name="The Press"/>
+            </category>
+        </area>
+        <area id="/asi/geo/ph.html" name="Philippines">
+            <category id="general">
+                <newsPapers id="manila_standard_today" name="Manila Standard Today"/>
+            </category>
+        </area>
+        <area id="/asi/geo/ae.html" name="United Arab Emirates">
+            <category id="general">
+                <newsPapers id="gulf_news" name="Gulf News"/>
+            </category>
+        </area>
+    </areas>
+    <areas id="/eur/" name="Europe">
+        <category id="general">
+            <newsPapers id="the_times" name="The Times"/>
+            <newsPapers id="corriere_della_sera" name="Corriere della Sera"/>
+            <newsPapers id="elpais" name="El País"/>
+            <newsPapers id="faz" name="Frankfurter Allgemeine"/>
+            <newsPapers id="lemonde" name="Le Monde"/>
+        </category>
+        <category id="sport">
+            <newsPapers id="corriere_sport" name="Corriere dello Sport"/>
+            <newsPapers id="l_equip" name="L'Equipe"/>
+            <newsPapers id="marca" name="Marca"/>
+        </category>
+        <category id="economy">
+            <newsPapers id="sole24ore" name="Il Sole 24 ORE"/>
+            <newsPapers id="economist" name="The Economist"/>
+            <newsPapers id="expansion" name="Expansión"/>
+            <newsPapers id="tribune" name="La Tribune"/>
+            <newsPapers id="echos" name="Les Echos"/>
+        </category>
+        <category id="magazine">
+            <newsPapers id="spiegel" name="Der Spiegel"/>
+        </category>
+        <area id="/be/" name="Belgium">
+            <category id="general">
+                <newsPapers id="nieuwsblad" name="Het Nieuwsblad"/>
+                <newsPapers id="morgen" name="De Morgen"/>
+                <newsPapers id="standaard" name="De Standaard"/>
+                <newsPapers id="gva" name="Gazet van Antwerpen"/>
+                <newsPapers id="lesoir" name="Le Soir"/>
+                <newsPapers id="de_tijd" name="De Tijd"/>
+                <newsPapers id="l_echo" name="L'Echo"/>
+            </category>
+            <category id="sport">
+                <newsPapers id="dh" name="DH"/>
+            </category>
+        </area>
+        <area id="/dk/" name="Denmark">
+            <category id="general">
+                <newsPapers id="bt" name="B.T."/>
+                <newsPapers id="berlingske_tidende" name="Berlingske"/>
+                <newsPapers id="ekstrabladet" name="Ekstra Bladet"/>
+                <newsPapers id="politiken" name="Politiken"/>
+            </category>
+        </area>
+        <area id="/fr/" name="France">
+            <category id="general">
+                <newsPapers id="lemonde" name="Le Monde"/>
+                <newsPapers id="journal_dimanche" name="Le Journal du Dimanche"/>
+                <newsPapers id="aujourd_hui" name="Aujourd'hui en France"/>
+                <newsPapers id="depeche" name="La Dépêche du Midi"/>
+                <newsPapers id="dauphine" name="Le Dauphiné Libéré"/>
+                <newsPapers id="parisien" name="Le Parisien"/>
+                <newsPapers id="progres" name="Le Progrès"/>
+                <newsPapers id="ouestfrance" name="Ouest France"/>
+                <newsPapers id="sudouest" name="Sud Ouest"/>
+                <newsPapers id="courrierpicard" name="Courrier Picard"/>
+                <newsPapers id="mainelibre" name="Le Maine Libre"/>
+                <newsPapers id="dna" name="Les Dernières Nouvelles d'Alsace"/>
+                <newsPapers id="midilibre" name="Midi Libre"/>
+                <newsPapers id="nordeclair" name="Nord Éclair"/>
+                <newsPapers id="presseocean" name="Presse Ocean"/>
+                <newsPapers id="telegramme" name="Télégramme"/>
+                <newsPapers id="berryrepublicain" name="Berry Republicain"/>
+                <newsPapers id="corsematin" name="Corse-Matin"/>
+                <newsPapers id="alsace" name="Journal L'Alsace"/>
+                <newsPapers id="journalsaoneloire" name="Journal de Saône-et-Loire"/>
+                <newsPapers id="estrepublicain" name="L'Est Republicain"/>
+                <newsPapers id="marseillaise" name="La Marseillaise"/>
+                <newsPapers id="montagne" name="La Montagne"/>
+                <newsPapers id="provence" name="La Provence"/>
+                <newsPapers id="bienpublic" name="Le Bien Public"/>
+                <newsPapers id="independant" name="Le Indépendant"/>
+                <newsPapers id="petitbleu" name="Le Petit Bleu"/>
+                <newsPapers id="populairecentre" name="Le Populaire du Centre"/>
+            </category>
+            <category id="sport">
+                <newsPapers id="l_equip" name="L'Equipe"/>
+                <newsPapers id="midi_olympique" name="Midi Olympique"/>
+            </category>
+            <category id="economy">
+                <newsPapers id="tribune" name="La Tribune"/>
+                <newsPapers id="echos" name="Les Echos"/>
+                <newsPapers id="nouvel_economiste" name="Le nouvel Economiste"/>
+            </category>
+            <area id="/fr/geo/Ile_France.html" name="Île-de-France">
+                <category id="general">
+                    <newsPapers id="parisien" name="Le Parisien"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Alsace.html" name="Alsace">
+                <category id="general">
+                    <newsPapers id="dna" name="Les Dernières Nouvelles d'Alsace"/>
+                    <newsPapers id="alsace" name="Journal L'Alsace"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Aquitaine.html" name="Aquitaine">
+                <category id="general">
+                    <newsPapers id="sudouest" name="Sud Ouest"/>
+                    <newsPapers id="petitbleu" name="Le Petit Bleu"/>
+                    <newsPapers id="republiquepyrenees" name="La République des Pyrénées"/>
+                    <newsPapers id="eclairpyrenees" name="L'Eclair des Pyrénées"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Auvergne.html" name="Auvergne">
+                <category id="general">
+                    <newsPapers id="montagne" name="La Montagne"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Basse-Normandie.html" name="Basse-Normandie">
+                <category id="general"/>
+            </area>
+            <area id="/fr/geo/Bourgogne.html" name="Bourgogne">
+                <category id="general">
+                    <newsPapers id="journalsaoneloire" name="Journal de Saône-et-Loire"/>
+                    <newsPapers id="bienpublic" name="Le Bien Public"/>
+                    <newsPapers id="lyonnerepublicaine" name="L'Yonne-Républicaine"/>
+                    <newsPapers id="havrelibre" name="Le Havre Libre"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Bretagne.html" name="Brittany">
+                <category id="general">
+                    <newsPapers id="ouestfrance" name="Ouest France"/>
+                    <newsPapers id="telegramme" name="Télégramme"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Centre.html" name="Centre">
+                <category id="general">
+                    <newsPapers id="berryrepublicain" name="Berry Republicain"/>
+                    <newsPapers id="echorepublicain" name="L'Echo Républicain"/>
+                    <newsPapers id="nouvellerepublique" name="La Nouvelle Republique"/>
+                    <newsPapers id="larep" name="La République du Centre"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Champagne-Ardenne.html" name="Champagne-Ardenne">
+                <category id="general">
+                    <newsPapers id="esteclair" name="L'Est Eclair"/>
+                    <newsPapers id="ardennais" name="L'Ardenais"/>
+                    <newsPapers id="union" name="L'Union"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Corse.html" name="Corse">
+                <category id="general">
+                    <newsPapers id="corsematin" name="Corse-Matin"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Franche-Comte.html" name="Franche-Comté">
+                <category id="general"/>
+            </area>
+            <area id="/fr/geo/Haute-Normandie.html" name="Haute-Normandie">
+                <category id="general">
+                    <newsPapers id="parisnormandie" name="Paris Normandie"/>
+                    <newsPapers id="havrepresse" name="Le Havre Presse"/>
+                    <newsPapers id="progresfecamp" name="Progres de Fecamp"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Languedoc-Roussillon.html" name="Languedoc-Roussillon">
+                <category id="general">
+                    <newsPapers id="midilibre" name="Midi Libre"/>
+                    <newsPapers id="independant" name="Le Indépendant"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Limousin.html" name="Limousin">
+                <category id="general">
+                    <newsPapers id="populairecentre" name="Le Populaire du Centre"/>
+                    <newsPapers id="echo" name="L'Echo de la Haute-Vienne"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Lorraine.html" name="Lorraine">
+                <category id="general">
+                    <newsPapers id="estrepublicain" name="L'Est Republicain"/>
+                    <newsPapers id="republicainlorrain" name="Le Republicain Lorrain"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Midi-Pyrenees.html" name="Midi-Pyrénées">
+                <category id="general">
+                    <newsPapers id="depeche" name="La Dépêche du Midi"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Nord-Pas_Calais.html" name="Nord-Pas de Calais">
+                <category id="general">
+                    <newsPapers id="nordeclair" name="Nord Éclair"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Pays_Loire.html" name="Pays-de-la-Loire">
+                <category id="general">
+                    <newsPapers id="mainelibre" name="Le Maine Libre"/>
+                    <newsPapers id="presseocean" name="Presse Ocean"/>
+                    <newsPapers id="courrierouest" name="Le Courrier de l'Ouest"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Picardie.html" name="Picardie">
+                <category id="general">
+                    <newsPapers id="courrierpicard" name="Courrier Picard"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Poitou-Charentes.html" name="Poitou-Charentes">
+                <category id="general">
+                    <newsPapers id="charentelibre" name="Charente Libre"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Provence-Alpes-C_Azur.html" name="Provence-Alpes-Côte d'Azur">
+                <category id="general">
+                    <newsPapers id="marseillaise" name="La Marseillaise"/>
+                    <newsPapers id="provence" name="La Provence"/>
+                    <newsPapers id="nicematin" name="Nice-Matin"/>
+                    <newsPapers id="varmatin" name="Var-Matin"/>
+                </category>
+            </area>
+            <area id="/fr/geo/Rhone-Alpes.html" name="Rhône-Alpes">
+                <category id="general">
+                    <newsPapers id="dauphine" name="Le Dauphiné Libéré"/>
+                    <newsPapers id="progres" name="Le Progrès"/>
+                    <newsPapers id="vaucluse" name="Vaucluse"/>
+                </category>
+            </area>
+        </area>
+        <area id="/de/" name="Germany">
+            <category id="general">
+                <newsPapers id="faz" name="Frankfurter Allgemeine"/>
+                <newsPapers id="tagesspiegel" name="Der Tagesspiegel"/>
+                <newsPapers id="die_welt" name="Die Welt"/>
+                <newsPapers id="tageszeitung" name="Die Tageszeitung"/>
+                <newsPapers id="bild" name="Bild"/>
+                <newsPapers id="sueddeutsche" name="Sueddeutsche"/>
+                <newsPapers id="fr" name="Frankfurter Rundschau"/>
+                <newsPapers id="h_morgen_post" name="Hamburger Morgenpost "/>
+            </category>
+            <category id="economy">
+                <newsPapers id="handelsblatt" name="Handelsblatt"/>
+            </category>
+            <category id="magazine">
+                <newsPapers id="spiegel" name="Der Spiegel"/>
+            </category>
+            <area id="/de/geo/Berlin.html" name="Berlin">
+                <category id="general"/>
+            </area>
+        </area>
+        <area id="/gr/" name="Greece">
+            <category id="general">
+                <newsPapers id="kathimerini" name="Η ΚΑΘΗΜΕΡΙΝΗ"/>
+                <newsPapers id="ethnos" name="ειδησεις - Ethnos"/>
+                <newsPapers id="taxydromos" name="Taxydromos -  ΤΑΧΥΔΡΟΜΟΣ"/>
+            </category>
+        </area>
+        <area id="/ie/" name="Ireland">
+            <category id="general">
+                <newsPapers id="irish_times" name="Irish Times"/>
+                <newsPapers id="irish_news" name="The Irish News"/>
+                <newsPapers id="irish_examiner" name="Irish Examiner"/>
+            </category>
+        </area>
+        <area id="/it/" name="Italy">
+            <category id="general">
+                <newsPapers id="corriere_della_sera" name="Corriere della Sera"/>
+                <newsPapers id="ilmessaggero" name="Il Messaggero"/>
+                <newsPapers id="osservatore_romano" name="L'Osservatore Romano"/>
+                <newsPapers id="repubblica" name="La Repubblica"/>
+                <newsPapers id="stampa" name="La Stampa"/>
+                <newsPapers id="avvenire" name="Avvenire"/>
+                <newsPapers id="gazzettino" name="Il Gazzettino"/>
+                <newsPapers id="mattino" name="Il Mattino"/>
+                <newsPapers id="tirreno" name="Il Tirreno"/>
+                <newsPapers id="la_sicilia" name="La Sicilia"/>
+                <newsPapers id="libero" name="Libero"/>
+                <newsPapers id="unita" name="l'Unità"/>
+                <newsPapers id="giornale_sicilia" name="Giornale di Sicilia"/>
+            </category>
+            <category id="sport">
+                <newsPapers id="corriere_sport" name="Corriere dello Sport"/>
+                <newsPapers id="tuttosport" name="Tuttosport"/>
+                <newsPapers id="gazzetta_sport" name="La Gazzetta dello Sport"/>
+            </category>
+            <category id="economy">
+                <newsPapers id="sole24ore" name="Il Sole 24 ORE"/>
+                <newsPapers id="denaro" name="Il Denaro"/>
+            </category>
+            <area id="/it/geo/Bari.html" name="Bari">
+                <category id="general"/>
+            </area>
+            <area id="/it/geo/Livorno.html" name="Livorno">
+                <category id="general">
+                    <newsPapers id="tirreno" name="Il Tirreno"/>
+                </category>
+            </area>
+            <area id="/it/geo/Milano.html" name="Milan">
+                <category id="general">
+                    <newsPapers id="corriere_della_sera" name="Corriere della Sera"/>
+                    <newsPapers id="sole24ore" name="Il Sole 24 ORE"/>
+                    <newsPapers id="avvenire" name="Avvenire"/>
+                    <newsPapers id="gazzetta_sport" name="La Gazzetta dello Sport"/>
+                </category>
+            </area>
+            <area id="/it/geo/Napoli.html" name="Naples">
+                <category id="general">
+                    <newsPapers id="mattino" name="Il Mattino"/>
+                    <newsPapers id="denaro" name="Il Denaro"/>
+                </category>
+            </area>
+            <area id="/it/geo/Roma.html" name="Rome">
+                <category id="general">
+                    <newsPapers id="corriere_sport" name="Corriere dello Sport"/>
+                    <newsPapers id="ilmessaggero" name="Il Messaggero"/>
+                    <newsPapers id="osservatore_romano" name="L'Osservatore Romano"/>
+                    <newsPapers id="repubblica" name="La Repubblica"/>
+                </category>
+            </area>
+            <area id="/it/geo/Sicilia.html" name="Sicily">
+                <category id="general">
+                    <newsPapers id="la_sicilia" name="La Sicilia"/>
+                    <newsPapers id="giornale_sicilia" name="Giornale di Sicilia"/>
+                </category>
+            </area>
+            <area id="/it/geo/Torino.html" name="Turin">
+                <category id="general">
+                    <newsPapers id="stampa" name="La Stampa"/>
+                    <newsPapers id="tuttosport" name="Tuttosport"/>
+                </category>
+            </area>
+            <area id="/it/geo/Venezia.html" name="Venice">
+                <category id="general">
+                    <newsPapers id="gazzettino" name="Il Gazzettino"/>
+                </category>
+            </area>
+        </area>
+        <area id="/nl/" name="Netherlands">
+            <category id="general">
+                <newsPapers id="ad" name="AD"/>
+                <newsPapers id="het_parool" name="Het Parool"/>
+                <newsPapers id="trouw" name="Trouw"/>
+            </category>
+        </area>
+        <area id="/no/" name="Norway">
+            <category id="general">
+                <newsPapers id="aftenposten" name="Aftenposten"/>
+            </category>
+        </area>
+        <area id="/pl/" name="Poland">
+            <category id="general">
+                <newsPapers id="fakt" name="Fakt"/>
+                <newsPapers id="gazeta_wyborcza" name="Gazeta Wyborcza"/>
+            </category>
+        </area>
+        <area id="/pt/" name="Portugal">
+            <category id="general">
+                <newsPapers id="diario_noticias" name="Diário de Noticias"/>
+                <newsPapers id="jornal_noticias" name="Jornal de Notícias"/>
+                <newsPapers id="publico" name="Público"/>
+                <newsPapers id="correiodamanha" name="Correio da Manhã"/>
+                <newsPapers id="diario_coimbra" name="Diário de Coimbra"/>
+            </category>
+            <category id="sport">
+                <newsPapers id="a_bola" name="A Bola"/>
+                <newsPapers id="o_jogo" name="O Jogo"/>
+            </category>
+            <category id="economy">
+                <newsPapers id="oje" name="Oje"/>
+            </category>
+            <area id="/pt/geo/Centro.html" name="Centre">
+                <category id="general">
+                    <newsPapers id="diario_coimbra" name="Diário de Coimbra"/>
+                </category>
+            </area>
+            <area id="/pt/geo/Lisboa.html" name="Lisbon">
+                <category id="general">
+                    <newsPapers id="a_bola" name="A Bola"/>
+                    <newsPapers id="diario_noticias" name="Diário de Noticias"/>
+                    <newsPapers id="publico" name="Público"/>
+                    <newsPapers id="correiodamanha" name="Correio da Manhã"/>
+                </category>
+            </area>
+            <area id="/pt/geo/Norte.html" name="North">
+                <category id="general">
+                    <newsPapers id="jornal_noticias" name="Jornal de Notícias"/>
+                    <newsPapers id="o_jogo" name="O Jogo"/>
+                </category>
+            </area>
+        </area>
+        <area id="/ru/" name="Russia">
+            <category id="general">
+                <newsPapers id="moskovskaya_pravda" name="Moskovskaya Pravda"/>
+                <newsPapers id="komsomolets" name="Moskovsky Komsomolets"/>
+                <newsPapers id="komsomolkaya_pravda" name="Komsomolskaya Pravda"/>
+                <newsPapers id="izvestia" name="Izvestia"/>
+                <newsPapers id="kommersant" name="Kommersant"/>
+                <newsPapers id="delovoy_peterburg" name="Delovoy Peterburg"/>
+                <newsPapers id="moscow_times" name="The Moscow Times"/>
+            </category>
+        </area>
+        <area id="/es/" name="Spain">
+            <category id="general">
+                <newsPapers id="elpais" name="El País"/>
+                <newsPapers id="abc" name="ABC"/>
+                <newsPapers id="elmundo" name="El Mundo"/>
+                <newsPapers id="larazon" name="La Razón"/>
+                <newsPapers id="lavanguardia" name="La Vanguardia"/>
+                <newsPapers id="elcorreo" name="El Correo"/>
+                <newsPapers id="elperiodico" name="El Periódico"/>
+                <newsPapers id="heraldo_aragon" name="Heraldo de Aragón"/>
+                <newsPapers id="la_gaceta" name="La Gaceta"/>
+                <newsPapers id="vozgalicia" name="La Voz de Galicia"/>
+                <newsPapers id="canarias7" name="Canarias 7"/>
+                <newsPapers id="diario_vasco" name="Diario Vasco"/>
+                <newsPapers id="diario_sevilla" name="Diario de Sevilla"/>
+                <newsPapers id="elcomercio" name="El Comercio"/>
+                <newsPapers id="diario_montanes" name="El Diario Montañés"/>
+                <newsPapers id="elperiodico_mediterraneo" name="El Periódico Mediterraneo"/>
+                <newsPapers id="elperiodico_aragon" name="El Periódico de Aragón"/>
+                <newsPapers id="farovigo" name="Faro de Vigo"/>
+                <newsPapers id="lanuevaespana" name="La Nueva España"/>
+                <newsPapers id="laregion" name="La Región de Ourense"/>
+                <newsPapers id="levante" name="Levante"/>
+                <newsPapers id="atlantico_diario" name="Atlántico Diario"/>
+                <newsPapers id="deia" name="Deia"/>
+                <newsPapers id="altoaragon" name="Diario del AltoAragón"/>
+                <newsPapers id="elperiodico_cat" name="El Periódico de Catalunya"/>
+                <newsPapers id="elperiodico_extremadura" name="El Periódico de Extremadura"/>
+                <newsPapers id="elpunt_valencia" name="El Punt - Valencia"/>
+                <newsPapers id="elpunt_avui" name="El Punt Avui"/>
+            </category>
+            <category id="sport">
+                <newsPapers id="marca" name="Marca"/>
+                <newsPapers id="as" name="As"/>
+                <newsPapers id="mundodeportivo" name="El Mundo Deportivo"/>
+                <newsPapers id="sport" name="Sport"/>
+                <newsPapers id="deporsport" name="DEPORsport"/>
+                <newsPapers id="mundodeportivo_atletico" name="Mundo Atlético"/>
+                <newsPapers id="mundodeportivo_bizkaia" name="Mundo Deportivo Bizkaia"/>
+                <newsPapers id="mundodeportivo_gipuzkoa" name="Mundo Deportivo Gipuzkoa"/>
+                <newsPapers id="superdeporte" name="Superdeporte"/>
+                <newsPapers id="el9" name="El 9"/>
+            </category>
+            <category id="economy">
+                <newsPapers id="5dias" name="Cinco Días"/>
+                <newsPapers id="eleconomista" name="El Economista"/>
+                <newsPapers id="expansion" name="Expansión"/>
+            </category>
+            <area id="/es/geo/Andalucia.html" name="Andalusia">
+                <category id="general">
+                    <newsPapers id="diario_sevilla" name="Diario de Sevilla"/>
+                    <newsPapers id="abc_sevilla" name="ABC - Sevilla"/>
+                    <newsPapers id="diario_jaen" name="Diario Jaén"/>
+                    <newsPapers id="el_almeria" name="Diario de Almería"/>
+                    <newsPapers id="diario_cadiz" name="Diario de Cádiz"/>
+                </category>
+                <category id="free">
+                    <newsPapers id="viva_cadiz" name="Viva Cadiz"/>
+                    <newsPapers id="viva_campodegibraltar" name="Viva Campo de Gibraltar"/>
+                    <newsPapers id="viva_jerez" name="Viva Jerez"/>
+                    <newsPapers id="gente_barcelona" name="Gente en Barcelona"/>
+                    <newsPapers id="gente_burgos" name="Gente en Burgos"/>
+                    <newsPapers id="gente_leon" name="Gente en León"/>
+                    <newsPapers id="gente_logrono" name="Gente en Logroño"/>
+                    <newsPapers id="gente_madrid" name="Gente en Madrid"/>
+                    <newsPapers id="gente_palencia" name="Gente en Palencia"/>
+                    <newsPapers id="gente_santander" name="Gente en Santander"/>
+                    <newsPapers id="gente_valladolid" name="Gente en Valladolid"/>
+                    <newsPapers id="l-v" name="De Luns a Venres"/>
+                    <newsPapers id="20minutos_barcelona" name="20 Minutos - Barcelona"/>
+                    <newsPapers id="20minutos_madrid" name="20 Minutos - Madrid"/>
+                    <newsPapers id="20minutos_sevilla" name="20 Minutos - Sevilla"/>
+                    <newsPapers id="20minutos_valencia" name="20 Minutos - Valencia"/>
+                    <newsPapers id="20minutos_malaga" name="20 Minutos - Malaga"/>
+                    <newsPapers id="20minutos_zaragoza" name="20 Minutos - Zaragoza"/>
+                    <newsPapers id="bondia_lleida" name="Diari Bondia Lleida"/>
+                    <newsPapers id="viva_huelva" name="Viva Huelva"/>
+                    <newsPapers id="viva_jaen" name="Viva Jaén"/>
+                    <newsPapers id="viva_sevilla" name="Viva Sevilla"/>
+                </category>
+                <area id="/es/geo/Almeria.html" name="Almeria">
+                    <category id="general">
+                        <newsPapers id="el_almeria" name="Diario de Almería"/>
+                        <newsPapers id="ideal_almeria" name="Ideal Almeria"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Cadiz.html" name="Cadiz">
+                    <category id="general">
+                        <newsPapers id="diario_cadiz" name="Diario de Cádiz"/>
+                        <newsPapers id="lavoz" name="La Voz de Cádiz"/>
+                        <newsPapers id="europa_sur" name="Europa Sur"/>
+                        <newsPapers id="diario_jerez" name="Diario de Jerez"/>
+                    </category>
+                    <category id="free">
+                        <newsPapers id="viva_cadiz" name="Viva Cadiz"/>
+                        <newsPapers id="viva_campodegibraltar" name="Viva Campo de Gibraltar"/>
+                        <newsPapers id="viva_jerez" name="Viva Jerez"/>
+                        <newsPapers id="gente_barcelona" name="Gente en Barcelona"/>
+                        <newsPapers id="gente_burgos" name="Gente en Burgos"/>
+                        <newsPapers id="gente_leon" name="Gente en León"/>
+                        <newsPapers id="gente_logrono" name="Gente en Logroño"/>
+                        <newsPapers id="gente_madrid" name="Gente en Madrid"/>
+                        <newsPapers id="gente_palencia" name="Gente en Palencia"/>
+                        <newsPapers id="gente_santander" name="Gente en Santander"/>
+                        <newsPapers id="gente_valladolid" name="Gente en Valladolid"/>
+                        <newsPapers id="l-v" name="De Luns a Venres"/>
+                        <newsPapers id="20minutos_barcelona" name="20 Minutos - Barcelona"/>
+                        <newsPapers id="20minutos_madrid" name="20 Minutos - Madrid"/>
+                        <newsPapers id="20minutos_sevilla" name="20 Minutos - Sevilla"/>
+                        <newsPapers id="20minutos_valencia" name="20 Minutos - Valencia"/>
+                        <newsPapers id="20minutos_malaga" name="20 Minutos - Malaga"/>
+                        <newsPapers id="20minutos_zaragoza" name="20 Minutos - Zaragoza"/>
+                        <newsPapers id="bondia_lleida" name="Diari Bondia Lleida"/>
+                        <newsPapers id="viva_huelva" name="Viva Huelva"/>
+                        <newsPapers id="viva_jaen" name="Viva Jaén"/>
+                        <newsPapers id="viva_sevilla" name="Viva Sevilla"/>
+                    </category>
+                    <area id="/es/geo/Jerez.html" name="Jerez">
+                        <category id="general">
+                            <newsPapers id="diario_jerez" name="Diario de Jerez"/>
+                            <newsPapers id="viva_jerez" name="Viva Jerez"/>
+                        </category>
+                    </area>
+                </area>
+                <area id="/es/geo/Cordoba.html" name="Cordoba">
+                    <category id="general">
+                        <newsPapers id="eldia_cordoba" name="El Día de Córdoba"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Granada.html" name="Granada">
+                    <category id="general">
+                        <newsPapers id="granada_hoy" name="Granada Hoy"/>
+                        <newsPapers id="ideal_granada" name="Ideal"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Huelva.html" name="Huelva">
+                    <category id="general">
+                        <newsPapers id="huelva_informacion" name="Huelva Información"/>
+                        <newsPapers id="elperiodico_huelva" name="El Periódico de Huelva"/>
+                        <newsPapers id="viva_huelva" name="Viva Huelva"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Jaen.html" name="Jaen">
+                    <category id="general">
+                        <newsPapers id="diario_jaen" name="Diario Jaén"/>
+                        <newsPapers id="ideal_jaen" name="El Ideal de Jaén"/>
+                        <newsPapers id="viva_jaen" name="Viva Jaén"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Malaga.html" name="Malaga">
+                    <category id="general">
+                        <newsPapers id="diariosur" name="Diario el Sur"/>
+                        <newsPapers id="opinion_malaga" name="La Opinión de Málaga"/>
+                        <newsPapers id="malaga_hoy" name="Málaga Hoy"/>
+                        <newsPapers id="20minutos_malaga" name="20 Minutos - Malaga"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Sevilla.html" name="Seville">
+                    <category id="general">
+                        <newsPapers id="diario_sevilla" name="Diario de Sevilla"/>
+                        <newsPapers id="abc_sevilla" name="ABC - Sevilla"/>
+                        <newsPapers id="correo_andalucia" name="El Correo de Andalucía"/>
+                        <newsPapers id="20minutos_sevilla" name="20 Minutos - Sevilla"/>
+                    </category>
+                </area>
+            </area>
+            <area id="/es/geo/Aragon.html" name="Aragon">
+                <category id="general">
+                    <newsPapers id="heraldo_aragon" name="Heraldo de Aragón"/>
+                    <newsPapers id="elperiodico_aragon" name="El Periódico de Aragón"/>
+                    <newsPapers id="altoaragon" name="Diario del AltoAragón"/>
+                    <newsPapers id="diario_teruel" name="Diario de Teruel"/>
+                </category>
+                <area id="/es/geo/Huesca.html" name="Huesca">
+                    <category id="general">
+                        <newsPapers id="altoaragon" name="Diario del AltoAragón"/>
+                        <newsPapers id="heraldo_huesca" name="Heraldo de Huesca"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Teruel.html" name="Teruel">
+                    <category id="general">
+                        <newsPapers id="diario_teruel" name="Diario de Teruel"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Zaragoza.html" name="Zaragoza">
+                    <category id="general">
+                        <newsPapers id="heraldo_aragon" name="Heraldo de Aragón"/>
+                        <newsPapers id="20minutos_zaragoza" name="20 Minutos - Zaragoza"/>
+                    </category>
+                </area>
+            </area>
+            <area id="/es/geo/Asturias.html" name="Asturias">
+                <category id="general">
+                    <newsPapers id="elcomercio" name="El Comercio"/>
+                    <newsPapers id="lanuevaespana" name="La Nueva España"/>
+                    <newsPapers id="lanuevaespana_gijon" name="La Nueva España - Gijón"/>
+                    <newsPapers id="elcomercio_aviles" name="El Comercio - Avilés"/>
+                </category>
+            </area>
+            <area id="/es/geo/Baleares.html" name="Balearic Islands">
+                <category id="general">
+                    <newsPapers id="diario_mallorca" name="Diario de Mallorca"/>
+                    <newsPapers id="diari_balears" name="Diari Balears"/>
+                    <newsPapers id="diario_ibiza" name="Diario de Ibiza"/>
+                    <newsPapers id="ultima_hora" name="Última Hora"/>
+                </category>
+                <area id="/es/geo/Ibiza.html" name="Ibiza">
+                    <category id="general">
+                        <newsPapers id="diario_ibiza" name="Diario de Ibiza"/>
+                        <newsPapers id="ultima_hora_ibiza" name="Última Hora - Ibiza"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Mallorca.html" name="Mallorca">
+                    <category id="general">
+                        <newsPapers id="diario_mallorca" name="Diario de Mallorca"/>
+                        <newsPapers id="diari_balears" name="Diari Balears"/>
+                        <newsPapers id="ultima_hora" name="Última Hora"/>
+                        <newsPapers id="mallorca_zeitung" name="Mallorca Zeitung"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Menorca.html" name="Menorca">
+                    <category id="general">
+                        <newsPapers id="ultima_hora_menorca" name="Última Hora - Menorca"/>
+                        <newsPapers id="diario_menorca" name="Menorca - Diario Insular"/>
+                    </category>
+                </area>
+            </area>
+            <area id="/es/geo/Pais_Vasco.html" name="Basque country">
+                <category id="general">
+                    <newsPapers id="elcorreo" name="El Correo"/>
+                    <newsPapers id="diario_vasco" name="Diario Vasco"/>
+                    <newsPapers id="deia" name="Deia"/>
+                    <newsPapers id="berria" name="Berria"/>
+                </category>
+                <area id="/es/geo/Alava.html" name="Alava">
+                    <category id="general">
+                        <newsPapers id="elcorreo_alava" name="El Correo - Álava"/>
+                        <newsPapers id="noticias_alava" name="Noticias de Álava"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Bizkaia.html" name="Bizkaia">
+                    <category id="general">
+                        <newsPapers id="elcorreo" name="El Correo"/>
+                        <newsPapers id="deia" name="Deia"/>
+                        <newsPapers id="mundodeportivo_bizkaia" name="Mundo Deportivo Bizkaia"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Gipuzkoa.html" name="Gipuzkoa">
+                    <category id="general">
+                        <newsPapers id="diario_vasco" name="Diario Vasco"/>
+                        <newsPapers id="elcorreo_guipuzcoa" name="El Correo - Guipuzcoa"/>
+                        <newsPapers id="gara" name="Gara"/>
+                        <newsPapers id="mundodeportivo_gipuzkoa" name="Mundo Deportivo Gipuzkoa"/>
+                    </category>
+                </area>
+            </area>
+            <area id="/es/geo/C_Valenciana.html" name="C. Valenciana">
+                <category id="general">
+                    <newsPapers id="elperiodico_mediterraneo" name="El Periódico Mediterraneo"/>
+                    <newsPapers id="levante" name="Levante"/>
+                    <newsPapers id="elpunt_valencia" name="El Punt - Valencia"/>
+                    <newsPapers id="laverdad_alicante" name="La Verdad de Alicante"/>
+                </category>
+                <area id="/es/geo/Alicante.html" name="Alicante">
+                    <category id="general">
+                        <newsPapers id="laverdad_alicante" name="La Verdad de Alicante"/>
+                        <newsPapers id="diario_informacion" name="Diario Información"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Castellon.html" name="Castellon">
+                    <category id="general">
+                        <newsPapers id="elperiodico_mediterraneo" name="El Periódico Mediterraneo"/>
+                        <newsPapers id="levante_castello" name="Levante de Castelló"/>
+                        <newsPapers id="castellon_al_dia" name="Castellón Al Día"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Valencia.html" name="Valencia">
+                    <category id="general">
+                        <newsPapers id="levante" name="Levante"/>
+                        <newsPapers id="lasprovincias" name="Las Provincias"/>
+                        <newsPapers id="20minutos_valencia" name="20 Minutos - Valencia"/>
+                    </category>
+                </area>
+            </area>
+            <area id="/es/geo/Canarias.html" name="Canary Islands">
+                <category id="general">
+                    <newsPapers id="canarias7" name="Canarias 7"/>
+                    <newsPapers id="diario_avisos" name="Diarios de Avisos"/>
+                    <newsPapers id="eldia" name="El Día"/>
+                    <newsPapers id="opinion_tenerife" name="La Opinión de Tenerife"/>
+                </category>
+                <area id="/es/geo/Gran_Canaria.html" name="Gran Canaria">
+                    <category id="general">
+                        <newsPapers id="canarias7" name="Canarias 7"/>
+                        <newsPapers id="laprovincia" name="La Provincia"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Tenerife.html" name="Tenerife">
+                    <category id="general">
+                        <newsPapers id="diario_avisos" name="Diarios de Avisos"/>
+                        <newsPapers id="eldia" name="El Día"/>
+                        <newsPapers id="opinion_tenerife" name="La Opinión de Tenerife"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Fuerteventura.html" name="Fuerteventura">
+                    <category id="general">
+                        <newsPapers id="canarias7_fuerteventura" name="Canarias 7 - Fuerteventura"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Lanzarote.html" name="Lanzarote">
+                    <category id="general">
+                        <newsPapers id="canarias7_lanzarote" name="Canarias 7 - Lanzarote"/>
+                    </category>
+                </area>
+            </area>
+            <area id="/es/geo/Cantabria.html" name="Cantabria">
+                <category id="general">
+                    <newsPapers id="diario_montanes" name="El Diario Montañés"/>
+                    <newsPapers id="elmundo_cantabria" name="Cantabria - El Mundo"/>
+                    <newsPapers id="alerta" name="Alerta - El Diario de Cantabria"/>
+                    <newsPapers id="gente_santander" name="Gente en Santander"/>
+                </category>
+            </area>
+            <area id="/es/geo/Castilla_Leon.html" name="Castilla y Leon">
+                <category id="general">
+                    <newsPapers id="nortecastilla_valladolid" name="Norte de Castilla - Valladolid"/>
+                    <newsPapers id="diario_palentino" name="Diario Palentino"/>
+                    <newsPapers id="diario_burgos" name="Diario de Burgos"/>
+                    <newsPapers id="diario_leon" name="Diario de León"/>
+                    <newsPapers id="diario_avila" name="Diario de Ávila"/>
+                </category>
+                <category id="free">
+                    <newsPapers id="viva_cadiz" name="Viva Cadiz"/>
+                    <newsPapers id="viva_campodegibraltar" name="Viva Campo de Gibraltar"/>
+                    <newsPapers id="viva_jerez" name="Viva Jerez"/>
+                    <newsPapers id="gente_barcelona" name="Gente en Barcelona"/>
+                    <newsPapers id="gente_burgos" name="Gente en Burgos"/>
+                    <newsPapers id="gente_leon" name="Gente en León"/>
+                    <newsPapers id="gente_logrono" name="Gente en Logroño"/>
+                    <newsPapers id="gente_madrid" name="Gente en Madrid"/>
+                    <newsPapers id="gente_palencia" name="Gente en Palencia"/>
+                    <newsPapers id="gente_santander" name="Gente en Santander"/>
+                    <newsPapers id="gente_valladolid" name="Gente en Valladolid"/>
+                    <newsPapers id="l-v" name="De Luns a Venres"/>
+                    <newsPapers id="20minutos_barcelona" name="20 Minutos - Barcelona"/>
+                    <newsPapers id="20minutos_madrid" name="20 Minutos - Madrid"/>
+                    <newsPapers id="20minutos_sevilla" name="20 Minutos - Sevilla"/>
+                    <newsPapers id="20minutos_valencia" name="20 Minutos - Valencia"/>
+                    <newsPapers id="20minutos_malaga" name="20 Minutos - Malaga"/>
+                    <newsPapers id="20minutos_zaragoza" name="20 Minutos - Zaragoza"/>
+                    <newsPapers id="bondia_lleida" name="Diari Bondia Lleida"/>
+                    <newsPapers id="viva_huelva" name="Viva Huelva"/>
+                    <newsPapers id="viva_jaen" name="Viva Jaén"/>
+                    <newsPapers id="viva_sevilla" name="Viva Sevilla"/>
+                </category>
+                <area id="/es/geo/Avila.html" name="Avila">
+                    <category id="general">
+                        <newsPapers id="diario_avila" name="Diario de Ávila"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Burgos.html" name="Burgos">
+                    <category id="general">
+                        <newsPapers id="diario_burgos" name="Diario de Burgos"/>
+                        <newsPapers id="elcorreo_burgos" name="El Correo de Burgos"/>
+                        <newsPapers id="gente_burgos" name="Gente en Burgos"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Leon.html" name="Leon">
+                    <category id="general">
+                        <newsPapers id="diario_leon" name="Diario de León"/>
+                        <newsPapers id="cronica_leon" name="La Crónica - León"/>
+                        <newsPapers id="diario_leon_bierzo" name="Diario de León - Bierzo"/>
+                        <newsPapers id="gente_leon" name="Gente en León"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Palencia.html" name="Palencia">
+                    <category id="general">
+                        <newsPapers id="diario_palentino" name="Diario Palentino"/>
+                        <newsPapers id="nortecastilla_palencia" name="Norte de Castilla - Palencia"/>
+                        <newsPapers id="gente_palencia" name="Gente en Palencia"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Salamanca.html" name="Salamanca">
+                    <category id="general"/>
+                </area>
+                <area id="/es/geo/Segovia.html" name="Segovia">
+                    <category id="general">
+                        <newsPapers id="adelantado_segovia" name="El Adelantado de Segovia"/>
+                        <newsPapers id="nortecastilla_segovia" name="Norte de Castilla - Segovia"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Soria.html" name="Soria">
+                    <category id="general">
+                        <newsPapers id="heraldo_soria" name="Heraldo de Soria"/>
+                        <newsPapers id="diario_soria" name="Diario de Soria"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Valladolid.html" name="Valladolid">
+                    <category id="general">
+                        <newsPapers id="nortecastilla_valladolid" name="Norte de Castilla - Valladolid"/>
+                        <newsPapers id="diario_valladolid" name="Diario de Valladolid"/>
+                        <newsPapers id="gente_valladolid" name="Gente en Valladolid"/>
+                        <newsPapers id="eldia_valladolid" name="El Día de Valladolid"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Zamora.html" name="Zamora">
+                    <category id="general">
+                        <newsPapers id="opinion_zamora" name="La Opinión - El Correo de Zamora"/>
+                        <newsPapers id="nortecastilla_zamora" name="Norte de Castilla - Zamora"/>
+                    </category>
+                </area>
+            </area>
+            <area id="/es/geo/Castilla-La_Mancha.html" name="Castilla-La Mancha">
+                <category id="general">
+                    <newsPapers id="eldia_clm" name="EL Día de Castilla-La Mancha"/>
+                    <newsPapers id="latribuna_ciudadreal" name="La Tribuna de Ciudad Real"/>
+                    <newsPapers id="laverdad_albacete" name="La Verdad de Albacete"/>
+                    <newsPapers id="lanza" name="Lanza"/>
+                </category>
+                <area id="/es/geo/Albacete.html" name="Albacete">
+                    <category id="general">
+                        <newsPapers id="laverdad_albacete" name="La Verdad de Albacete"/>
+                        <newsPapers id="latribuna_albacete" name="La Trbuna de Albacete"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Ciudad_Real.html" name="Ciudad Real">
+                    <category id="general">
+                        <newsPapers id="latribuna_ciudadreal" name="La Tribuna de Ciudad Real"/>
+                        <newsPapers id="lanza" name="Lanza"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Cuenca.html" name="Cuenca">
+                    <category id="general"/>
+                </area>
+                <area id="/es/geo/Guadalajara.html" name="Guadalajara">
+                    <category id="general">
+                        <newsPapers id="nueva_alcarria" name="Nueva Alcarria"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Toledo.html" name="Toledo">
+                    <category id="general">
+                        <newsPapers id="eldia_clm" name="EL Día de Castilla-La Mancha"/>
+                        <newsPapers id="latribuna_toledo" name="La Trbuna de Toledo"/>
+                    </category>
+                </area>
+            </area>
+            <area id="/es/geo/Cataluna.html" name="Catalonia">
+                <category id="general">
+                    <newsPapers id="lavanguardia" name="La Vanguardia"/>
+                    <newsPapers id="elperiodico" name="El Periódico"/>
+                    <newsPapers id="elperiodico_cat" name="El Periódico de Catalunya"/>
+                    <newsPapers id="elpunt_avui" name="El Punt Avui"/>
+                    <newsPapers id="lavanguardia_cat" name="La Vanguardia - Català"/>
+                </category>
+                <category id="sport">
+                    <newsPapers id="marca" name="Marca"/>
+                    <newsPapers id="as" name="As"/>
+                    <newsPapers id="mundodeportivo" name="El Mundo Deportivo"/>
+                    <newsPapers id="sport" name="Sport"/>
+                    <newsPapers id="deporsport" name="DEPORsport"/>
+                    <newsPapers id="mundodeportivo_atletico" name="Mundo Atlético"/>
+                    <newsPapers id="mundodeportivo_bizkaia" name="Mundo Deportivo Bizkaia"/>
+                    <newsPapers id="mundodeportivo_gipuzkoa" name="Mundo Deportivo Gipuzkoa"/>
+                    <newsPapers id="superdeporte" name="Superdeporte"/>
+                    <newsPapers id="el9" name="El 9"/>
+                </category>
+                <category id="free">
+                    <newsPapers id="viva_cadiz" name="Viva Cadiz"/>
+                    <newsPapers id="viva_campodegibraltar" name="Viva Campo de Gibraltar"/>
+                    <newsPapers id="viva_jerez" name="Viva Jerez"/>
+                    <newsPapers id="gente_barcelona" name="Gente en Barcelona"/>
+                    <newsPapers id="gente_burgos" name="Gente en Burgos"/>
+                    <newsPapers id="gente_leon" name="Gente en León"/>
+                    <newsPapers id="gente_logrono" name="Gente en Logroño"/>
+                    <newsPapers id="gente_madrid" name="Gente en Madrid"/>
+                    <newsPapers id="gente_palencia" name="Gente en Palencia"/>
+                    <newsPapers id="gente_santander" name="Gente en Santander"/>
+                    <newsPapers id="gente_valladolid" name="Gente en Valladolid"/>
+                    <newsPapers id="l-v" name="De Luns a Venres"/>
+                    <newsPapers id="20minutos_barcelona" name="20 Minutos - Barcelona"/>
+                    <newsPapers id="20minutos_madrid" name="20 Minutos - Madrid"/>
+                    <newsPapers id="20minutos_sevilla" name="20 Minutos - Sevilla"/>
+                    <newsPapers id="20minutos_valencia" name="20 Minutos - Valencia"/>
+                    <newsPapers id="20minutos_malaga" name="20 Minutos - Malaga"/>
+                    <newsPapers id="20minutos_zaragoza" name="20 Minutos - Zaragoza"/>
+                    <newsPapers id="bondia_lleida" name="Diari Bondia Lleida"/>
+                    <newsPapers id="viva_huelva" name="Viva Huelva"/>
+                    <newsPapers id="viva_jaen" name="Viva Jaén"/>
+                    <newsPapers id="viva_sevilla" name="Viva Sevilla"/>
+                </category>
+                <area id="/es/geo/Barcelona.html" name="Barcelona">
+                    <category id="general">
+                        <newsPapers id="lavanguardia" name="La Vanguardia"/>
+                        <newsPapers id="elperiodico" name="El Periódico"/>
+                        <newsPapers id="elperiodico_cat" name="El Periódico de Catalunya"/>
+                        <newsPapers id="elpunt_avui" name="El Punt Avui"/>
+                        <newsPapers id="lavanguardia_cat" name="La Vanguardia - Català"/>
+                    </category>
+                    <category id="sport">
+                        <newsPapers id="marca" name="Marca"/>
+                        <newsPapers id="as" name="As"/>
+                        <newsPapers id="mundodeportivo" name="El Mundo Deportivo"/>
+                        <newsPapers id="sport" name="Sport"/>
+                        <newsPapers id="deporsport" name="DEPORsport"/>
+                        <newsPapers id="mundodeportivo_atletico" name="Mundo Atlético"/>
+                        <newsPapers id="mundodeportivo_bizkaia" name="Mundo Deportivo Bizkaia"/>
+                        <newsPapers id="mundodeportivo_gipuzkoa" name="Mundo Deportivo Gipuzkoa"/>
+                        <newsPapers id="superdeporte" name="Superdeporte"/>
+                        <newsPapers id="el9" name="El 9"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Girona.html" name="Girona">
+                    <category id="general">
+                        <newsPapers id="diari_girona" name="Diari de Girona"/>
+                        <newsPapers id="elpunt_girona" name="El Punt Avui - Girona"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Lleida.html" name="Lleida">
+                    <category id="general">
+                        <newsPapers id="segre" name="Segre"/>
+                        <newsPapers id="bondia_lleida" name="Diari Bondia Lleida"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Tarragona.html" name="Tarragona">
+                    <category id="general">
+                        <newsPapers id="diari_tarragona" name="Diari de Tarragona"/>
+                        <newsPapers id="diari_ebro" name="Diari Ebro de Tarragona"/>
+                    </category>
+                </area>
+            </area>
+            <area id="/es/geo/Ceuta_Melilla.html" name="Ceuta and Melilla">
+                <category id="general">
+                    <newsPapers id="elfaro_ceuta" name="El Faro de Ceuta"/>
+                    <newsPapers id="elfaro_melilla" name="El Faro de Melilla"/>
+                    <newsPapers id="elpueblo_ceuta" name="El Pueblo de Ceuta"/>
+                </category>
+            </area>
+            <area id="/es/geo/Extremadura.html" name="Extremadura">
+                <category id="general">
+                    <newsPapers id="elperiodico_extremadura" name="El Periódico de Extremadura"/>
+                    <newsPapers id="hoy_badajoz" name="Hoy - Badajoz"/>
+                    <newsPapers id="hoy_caceres" name="Hoy - Caceres"/>
+                </category>
+                <area id="/es/geo/Badajoz.html" name="Badajoz">
+                    <category id="general">
+                        <newsPapers id="hoy_badajoz" name="Hoy - Badajoz"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Caceres.html" name="Caceres">
+                    <category id="general">
+                        <newsPapers id="hoy_caceres" name="Hoy - Caceres"/>
+                    </category>
+                </area>
+            </area>
+            <area id="/es/geo/Galicia.html" name="Galicia">
+                <category id="general">
+                    <newsPapers id="vozgalicia" name="La Voz de Galicia"/>
+                    <newsPapers id="farovigo" name="Faro de Vigo"/>
+                    <newsPapers id="laregion" name="La Región de Ourense"/>
+                    <newsPapers id="atlantico_diario" name="Atlántico Diario"/>
+                </category>
+                <area id="/es/geo/A_Coruna.html" name="A Coruña">
+                    <category id="general">
+                        <newsPapers id="vozgalicia" name="La Voz de Galicia"/>
+                        <newsPapers id="deporsport" name="DEPORsport"/>
+                        <newsPapers id="correo_gallego" name="El Correo Gallego"/>
+                        <newsPapers id="opinion_coruna" name="La Opinión de A Coruña"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Lugo.html" name="Lugo">
+                    <category id="general">
+                        <newsPapers id="progreso" name="El Progreso"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Ourense.html" name="Ourense">
+                    <category id="general">
+                        <newsPapers id="laregion" name="La Región de Ourense"/>
+                        <newsPapers id="farovigo_ourense" name="El Faro de Vigo - Ourense"/>
+                    </category>
+                </area>
+                <area id="/es/geo/Pontevedra.html" name="Pontevedra">
+                    <category id="general">
+                        <newsPapers id="farovigo" name="Faro de Vigo"/>
+                        <newsPapers id="atlantico_diario" name="Atlántico Diario"/>
+                        <newsPapers id="diario_pontevedra" name="Diario de Pontevedra"/>
+                        <newsPapers id="farovigo_pontevedra" name="El Faro de Vigo - Pontevedra"/>
+                    </category>
+                </area>
+            </area>
+            <area id="/es/geo/La_Rioja.html" name="La Rioja">
+                <category id="general">
+                    <newsPapers id="elcorreo_larioja" name="El Correo de La Rioja"/>
+                    <newsPapers id="larioja" name="La Rioja"/>
+                    <newsPapers id="gente_logrono" name="Gente en Logroño"/>
+                </category>
+            </area>
+            <area id="/es/geo/Madrid.html" name="Madrid">
+                <category id="general">
+                    <newsPapers id="elpais" name="El País"/>
+                    <newsPapers id="abc" name="ABC"/>
+                    <newsPapers id="elmundo" name="El Mundo"/>
+                    <newsPapers id="larazon" name="La Razón"/>
+                    <newsPapers id="la_gaceta" name="La Gaceta"/>
+                </category>
+                <category id="sport">
+                    <newsPapers id="marca" name="Marca"/>
+                    <newsPapers id="as" name="As"/>
+                    <newsPapers id="mundodeportivo" name="El Mundo Deportivo"/>
+                    <newsPapers id="sport" name="Sport"/>
+                    <newsPapers id="deporsport" name="DEPORsport"/>
+                    <newsPapers id="mundodeportivo_atletico" name="Mundo Atlético"/>
+                    <newsPapers id="mundodeportivo_bizkaia" name="Mundo Deportivo Bizkaia"/>
+                    <newsPapers id="mundodeportivo_gipuzkoa" name="Mundo Deportivo Gipuzkoa"/>
+                    <newsPapers id="superdeporte" name="Superdeporte"/>
+                    <newsPapers id="el9" name="El 9"/>
+                </category>
+            </area>
+            <area id="/es/geo/Murcia.html" name="Murcia">
+                <category id="general">
+                    <newsPapers id="laverdad_murcia" name="La Verdad de Murcia"/>
+                    <newsPapers id="opinion_murcia" name="La Opinión de Murcia"/>
+                    <newsPapers id="laverdad_cartagena" name="La Verdad de Cartagena"/>
+                </category>
+                <area id="/es/geo/Cartagena.html" name="Cartagena">
+                    <category id="general">
+                        <newsPapers id="laverdad_cartagena" name="La Verdad de Cartagena"/>
+                    </category>
+                </area>
+            </area>
+            <area id="/es/geo/Navarra.html" name="Navarra">
+                <category id="general">
+                    <newsPapers id="diario_navarra" name="Diario de Navarra"/>
+                    <newsPapers id="noticias_navarra" name="Noticias de Navarra"/>
+                </category>
+            </area>
+        </area>
+        <area id="/se/" name="Sweden">
+            <category id="general">
+                <newsPapers id="dagens_nyheter" name="Dagens Nyheter"/>
+                <newsPapers id="helsingborgs_dagblad" name="Helsingborgs Dagblad"/>
+                <newsPapers id="sundsvalls_tidning" name="Sundsvalls Tidning"/>
+                <newsPapers id="flamman" name="Flamman"/>
+            </category>
+            <category id="tabloid">
+                <newsPapers id="aftonbladet" name="Aftonbladet"/>
+                <newsPapers id="expressen" name="Expressen"/>
+                <newsPapers id="goteborgstidningen" name="Göteborgstidningen"/>
+                <newsPapers id="kvallsposten" name="Kvällsposten"/>
+            </category>
+        </area>
+        <area id="/ch/" name="Switzerland">
+            <category id="general">
+                <newsPapers id="corriere_ticino" name="Corriere del Ticino"/>
+                <newsPapers id="tages_anzeiger" name="Tages-Anzeiger"/>
+                <newsPapers id="basler_zeitung" name="Basler Zeitung"/>
+            </category>
+        </area>
+        <area id="/tr/" name="Turkey">
+            <category id="general">
+                <newsPapers id="hurriyet" name="Hürriyet"/>
+                <newsPapers id="haberturk" name="Habertürk"/>
+                <newsPapers id="milliyet" name="Milliyet"/>
+                <newsPapers id="sabah" name="Sabah"/>
+                <newsPapers id="vatan" name="Vatan"/>
+                <newsPapers id="zaman" name="Zaman"/>
+            </category>
+        </area>
+        <area id="/uk/" name="United Kingdom">
+            <category id="general">
+                <newsPapers id="the_times" name="The Times"/>
+                <newsPapers id="daily_telegraph" name="Daily Telegraph"/>
+                <newsPapers id="the_independent" name="The Independent"/>
+                <newsPapers id="observer" name="The Observer"/>
+                <newsPapers id="herald" name="The Herald"/>
+                <newsPapers id="guardian" name="The Guardian"/>
+                <newsPapers id="i_paper" name="The i"/>
+                <newsPapers id="scotsman" name="The Scotsman"/>
+                <newsPapers id="belfast_telegraph" name="Belfast Telegraph"/>
+                <newsPapers id="the_journal" name="The Journal"/>
+                <newsPapers id="irish_news" name="Irish News"/>
+                <newsPapers id="western_mail" name="Western Mail"/>
+                <newsPapers id="evening_standard" name="Evening Standard"/>
+            </category>
+            <category id="economy">
+                <newsPapers id="economist" name="The Economist"/>
+                <newsPapers id="ft_uk" name="Financial Times"/>
+                <newsPapers id="city_am" name="City A.M."/>
+            </category>
+            <category id="tabloid">
+                <newsPapers id="daily_express" name="Daily Express"/>
+                <newsPapers id="daily_mail" name="Daily Mail"/>
+                <newsPapers id="daily_star" name="Daily Star"/>
+                <newsPapers id="mirror" name="Daily Mirror"/>
+                <newsPapers id="sun" name="The Sun"/>
+            </category>
+            <area id="/uk/geo/Northern_Ireland.html" name="Northern Ireland">
+                <category id="general">
+                    <newsPapers id="belfast_telegraph" name="Belfast Telegraph"/>
+                    <newsPapers id="irish_news" name="Irish News"/>
+                </category>
+            </area>
+            <area id="/uk/geo/Scotland.html" name="Scotland">
+                <category id="general">
+                    <newsPapers id="herald" name="The Herald"/>
+                    <newsPapers id="scotsman" name="The Scotsman"/>
+                </category>
+            </area>
+            <area id="/uk/geo/Wales.html" name="Wales">
+                <category id="general">
+                    <newsPapers id="western_mail" name="Western Mail"/>
+                </category>
+            </area>
+        </area>
+    </areas>
+    <areas id="/iba/" name="Latin America">
+        <category id="general">
+            <newsPapers id="ar_clarin" name="Clarín"/>
+            <newsPapers id="cl_mercurio" name="El Mercurio"/>
+            <newsPapers id="co_eltiempo" name="El Tiempo"/>
+            <newsPapers id="br_oglobo" name="O Globo"/>
+            <newsPapers id="pe_comercio" name="Comercio"/>
+        </category>
+        <category id="sport">
+            <newsPapers id="ole" name="Olé"/>
+            <newsPapers id="mx_record" name="Record"/>
+        </category>
+        <category id="economy">
+            <newsPapers id="mx_financiero" name="El Financiero"/>
+            <newsPapers id="ar_ambito" name="Diario Ambito Financiero"/>
+            <newsPapers id="ar_cronista" name="El Cronista Comercial"/>
+            <newsPapers id="jornal_comercio" name="Jornal do Comércio"/>
+        </category>
+        <area id="/ar/" name="Argentina">
+            <category id="general">
+                <newsPapers id="ar_clarin" name="Clarín"/>
+                <newsPapers id="nacion" name="La Nación"/>
+                <newsPapers id="ar_eldia" name="El Día de la Plata"/>
+                <newsPapers id="ar_capital_rosario" name="La Capital - Rosario"/>
+                <newsPapers id="ar_gaceta" name="La Gaceta"/>
+                <newsPapers id="ar_voz_interior" name="La Voz del Interior"/>
+                <newsPapers id="ar_losandes" name="Los Andes - Mendoza"/>
+                <newsPapers id="ar_uno" name="Diario Uno"/>
+                <newsPapers id="ar_pagina12" name="Página/12"/>
+                <newsPapers id="buenos_aires_herald" name="Buenos Aires Herald"/>
+                <newsPapers id="ar_diario_cuyo" name="Diario de Cuyo"/>
+                <newsPapers id="diario_parana" name="El Diario de Paraná"/>
+                <newsPapers id="ar_nueva_provincia" name="La Nueva Provincia"/>
+                <newsPapers id="ar_uno_sfe" name="Uno de Santa Fe"/>
+                <newsPapers id="ar_jornada" name="Diario Jornada en la Patagonia"/>
+                <newsPapers id="la_capital" name="Diario La Capital - Mar del Plata"/>
+                <newsPapers id="ar_litoral" name="El Litoral Corrientes"/>
+                <newsPapers id="ar_territorio_posadas" name="El Territorio"/>
+                <newsPapers id="miradas_sur" name="Miradas al Sur"/>
+                <newsPapers id="ar_noticias_calle" name="Noticias de la Calle"/>
+                <newsPapers id="ar_rosario12" name="Rosario 12"/>
+                <newsPapers id="ar_sureno" name="Diario El Sureño"/>
+                <newsPapers id="ar_arena" name="Diario La Arena"/>
+                <newsPapers id="tiempo_argentino" name="Tiempo Argentino"/>
+                <newsPapers id="ar_libertador" name="Diario El Libertador"/>
+                <newsPapers id="el_atlantico" name="El Atlántico"/>
+                <newsPapers id="ar_misiones" name="Misiones"/>
+                <newsPapers id="ar_perfil" name="Diario Perfil"/>
+            </category>
+            <category id="sport">
+                <newsPapers id="ole" name="Olé"/>
+                <newsPapers id="grafico" name="El Gráfico"/>
+            </category>
+            <category id="economy">
+                <newsPapers id="ar_ambito" name="Diario Ambito Financiero"/>
+                <newsPapers id="ar_cronista" name="El Cronista Comercial"/>
+                <newsPapers id="buenosaires_economico" name="Buenos Aires Económico"/>
+            </category>
+            <category id="popular">
+                <newsPapers id="ar_diario_popular" name="Diario Popular"/>
+                <newsPapers id="ar_cronica" name="Crónica"/>
+                <newsPapers id="ar_muy" name="Muy"/>
+            </category>
+            <area id="/ar/geo/Buenos_Aires.html" name="Buenos Aires">
+                <category id="general">
+                    <newsPapers id="ar_eldia" name="El Día de la Plata"/>
+                    <newsPapers id="ar_nueva_provincia" name="La Nueva Provincia"/>
+                    <newsPapers id="la_capital" name="Diario La Capital - Mar del Plata"/>
+                    <newsPapers id="miradas_sur" name="Miradas al Sur"/>
+                </category>
+            </area>
+            <area id="/ar/geo/Buenos_Aires_CF.html" name="Buenos Aires C.F.">
+                <category id="general">
+                    <newsPapers id="ar_clarin" name="Clarín"/>
+                    <newsPapers id="nacion" name="La Nación"/>
+                    <newsPapers id="ole" name="Olé"/>
+                    <newsPapers id="ar_pagina12" name="Página/12"/>
+                    <newsPapers id="buenos_aires_herald" name="Buenos Aires Herald"/>
+                </category>
+                <category id="economy">
+                    <newsPapers id="ar_ambito" name="Diario Ambito Financiero"/>
+                    <newsPapers id="ar_cronista" name="El Cronista Comercial"/>
+                    <newsPapers id="buenosaires_economico" name="Buenos Aires Económico"/>
+                </category>
+                <category id="popular">
+                    <newsPapers id="ar_diario_popular" name="Diario Popular"/>
+                    <newsPapers id="ar_cronica" name="Crónica"/>
+                    <newsPapers id="ar_muy" name="Muy"/>
+                </category>
+            </area>
+            <area id="/ar/geo/Catamarca.html" name="Catamarca">
+                <category id="general"/>
+            </area>
+            <area id="/ar/geo/Chaco.html" name="Chaco">
+                <category id="general"/>
+            </area>
+            <area id="/ar/geo/Chubut.html" name="Chubut">
+                <category id="general">
+                    <newsPapers id="ar_jornada" name="Diario Jornada en la Patagonia"/>
+                </category>
+            </area>
+            <area id="/ar/geo/Cordoba.ar.html" name="Cordoba">
+                <category id="general">
+                    <newsPapers id="ar_voz_interior" name="La Voz del Interior"/>
+                    <newsPapers id="ar_manana_cordoba" name="Mañana de Córdoba"/>
+                </category>
+            </area>
+            <area id="/ar/geo/Corrientes.html" name="Corrientes">
+                <category id="general">
+                    <newsPapers id="ar_litoral" name="El Litoral Corrientes"/>
+                    <newsPapers id="ar_libertador" name="Diario El Libertador"/>
+                    <newsPapers id="ar_republica_corrientes" name="La República de Corrientes"/>
+                </category>
+            </area>
+            <area id="/ar/geo/Entre_Rios.html" name="Entre Rios">
+                <category id="general">
+                    <newsPapers id="diario_parana" name="El Diario de Paraná"/>
+                </category>
+            </area>
+            <area id="/ar/geo/Jujuy.html" name="Jujuy">
+                <category id="general"/>
+            </area>
+            <area id="/ar/geo/La_Pampa.html" name="La Pampa">
+                <category id="general">
+                    <newsPapers id="ar_arena" name="Diario La Arena"/>
+                    <newsPapers id="ar_diario_pampa" name="Diario de La Pampa"/>
+                </category>
+            </area>
+            <area id="/ar/geo/Mendoza.html" name="Mendoza">
+                <category id="general">
+                    <newsPapers id="ar_losandes" name="Los Andes - Mendoza"/>
+                    <newsPapers id="ar_uno" name="Diario Uno"/>
+                    <newsPapers id="jornada_mendoza" name="Diario Jornada"/>
+                </category>
+            </area>
+            <area id="/ar/geo/Misiones.html" name="Misiones">
+                <category id="general">
+                    <newsPapers id="ar_territorio_posadas" name="El Territorio"/>
+                    <newsPapers id="ar_noticias_calle" name="Noticias de la Calle"/>
+                    <newsPapers id="ar_misiones" name="Misiones"/>
+                </category>
+            </area>
+            <area id="/ar/geo/Rio_Negro.html" name="Rio Negro">
+                <category id="general"/>
+            </area>
+            <area id="/ar/geo/Salta.html" name="Salta">
+                <category id="general"/>
+            </area>
+            <area id="/ar/geo/San_Juan.html" name="San Juan">
+                <category id="general">
+                    <newsPapers id="ar_diario_cuyo" name="Diario de Cuyo"/>
+                </category>
+            </area>
+            <area id="/ar/geo/San_Luis.html" name="San Luis">
+                <category id="general"/>
+            </area>
+            <area id="/ar/geo/Santa_Fe.html" name="Santa Fe">
+                <category id="general">
+                    <newsPapers id="ar_capital_rosario" name="La Capital - Rosario"/>
+                    <newsPapers id="ar_uno_sfe" name="Uno de Santa Fe"/>
+                    <newsPapers id="ar_rosario12" name="Rosario 12"/>
+                    <newsPapers id="ar_litoral_sfe" name="Diario El Litoral"/>
+                </category>
+            </area>
+            <area id="/ar/geo/Santiago_Estero.html" name="Santiago Estero">
+                <category id="general"/>
+            </area>
+            <area id="/ar/geo/Tierra_Fuego.html" name="Tierra del Fuego">
+                <category id="general">
+                    <newsPapers id="ar_sureno" name="Diario El Sureño"/>
+                </category>
+            </area>
+            <area id="/ar/geo/Tucuman.html" name="Tucuman">
+                <category id="general">
+                    <newsPapers id="ar_gaceta" name="La Gaceta"/>
+                </category>
+            </area>
+        </area>
+        <area id="/bo/" name="Bolivia">
+            <category id="general">
+                <newsPapers id="bo_tiempos" name="Los Tiempos"/>
+                <newsPapers id="elnacional" name="El Nacional"/>
+                <newsPapers id="patria" name="La Patria"/>
+                <newsPapers id="correo_sur" name="Correo Sur"/>
+                <newsPapers id="potosi" name="Diario de Potosí"/>
+            </category>
+            <category id="sport">
+                <newsPapers id="elnacional_deportivo" name="Deportivo"/>
+            </category>
+            <area id="/bo/geo/Cochabamba.html" name="Cochabamba">
+                <category id="general">
+                    <newsPapers id="bo_tiempos" name="Los Tiempos"/>
+                </category>
+            </area>
+            <area id="/bo/geo/La_Paz.html" name="La Paz">
+                <category id="general"/>
+            </area>
+            <area id="/bo/geo/Oruro.html" name="Oruro">
+                <category id="general">
+                    <newsPapers id="patria" name="La Patria"/>
+                </category>
+            </area>
+            <area id="/bo/geo/Potosi.html" name="Potosi">
+                <category id="general">
+                    <newsPapers id="potosi" name="Diario de Potosí"/>
+                </category>
+            </area>
+            <area id="/bo/geo/Santa_Cruz.html" name="Santa Cruz">
+                <category id="general"/>
+            </area>
+            <area id="/bo/geo/Tarija.html" name="Tarija">
+                <category id="general">
+                    <newsPapers id="elnacional_deportivo" name="Deportivo"/>
+                    <newsPapers id="elnacional" name="El Nacional"/>
+                </category>
+            </area>
+        </area>
+        <area id="/br/" name="Brasil">
+            <category id="general">
+                <newsPapers id="br_oglobo" name="O Globo"/>
+                <newsPapers id="br_extra" name="Extra"/>
+                <newsPapers id="br_folha_spaulo" name="Folha de São Paulo"/>
+                <newsPapers id="o_dia" name="O Dia"/>
+                <newsPapers id="br_estado_spaulo" name="O Estado de São Paulo"/>
+                <newsPapers id="correio_braziliense" name="O Correio Brazilense"/>
+                <newsPapers id="br_atarde" name="Diário A Tarde"/>
+                <newsPapers id="jornal_estado_minas" name="Jornal Estado de Minas"/>
+                <newsPapers id="br_agora" name="Jornal Agora"/>
+                <newsPapers id="o_liberal" name="O Liberal"/>
+                <newsPapers id="diario_cuiaba" name="Diário de Cuiabá"/>
+            </category>
+            <category id="sport">
+                <newsPapers id="br_lance" name="Lance!"/>
+            </category>
+            <category id="economy">
+                <newsPapers id="economico" name="Brasil Econômico"/>
+                <newsPapers id="jornal_comercio" name="Jornal do Comércio"/>
+                <newsPapers id="br_diario_comercio" name="Diário do Comércio"/>
+            </category>
+            <area id="/br/geo/Bahia.html" name="Bahia">
+                <category id="general">
+                    <newsPapers id="br_atarde" name="Diário A Tarde"/>
+                </category>
+            </area>
+            <area id="/br/geo/Brasilia.html" name="Brasilia">
+                <category id="general">
+                    <newsPapers id="correio_braziliense" name="O Correio Brazilense"/>
+                </category>
+            </area>
+            <area id="/br/geo/Mato_Grosso.html" name="Mato Grosso">
+                <category id="general">
+                    <newsPapers id="diario_cuiaba" name="Diário de Cuiabá"/>
+                </category>
+            </area>
+            <area id="/br/geo/Minas_Gerais.html" name="Minas Gerais">
+                <category id="general">
+                    <newsPapers id="jornal_estado_minas" name="Jornal Estado de Minas"/>
+                    <newsPapers id="br_diario_comercio" name="Diário do Comércio"/>
+                </category>
+            </area>
+            <area id="/br/geo/Para.html" name="Para">
+                <category id="general">
+                    <newsPapers id="o_liberal" name="O Liberal"/>
+                </category>
+            </area>
+            <area id="/br/geo/Paraiba.html" name="Paraiba">
+                <category id="general"/>
+            </area>
+            <area id="/br/geo/Rio_Grande.html" name="Rio Grande">
+                <category id="general">
+                    <newsPapers id="br_agora" name="Jornal Agora"/>
+                </category>
+            </area>
+            <area id="/br/geo/Rio_Grande_do_Sul.html" name="Rio Grande do Sul">
+                <category id="general">
+                    <newsPapers id="jornal_comercio" name="Jornal do Comércio"/>
+                </category>
+            </area>
+            <area id="/br/geo/Rio_Janeiro.html" name="Rio de Janeiro">
+                <category id="general">
+                    <newsPapers id="br_oglobo" name="O Globo"/>
+                    <newsPapers id="br_extra" name="Extra"/>
+                    <newsPapers id="br_lance" name="Lance!"/>
+                    <newsPapers id="o_dia" name="O Dia"/>
+                </category>
+            </area>
+            <area id="/br/geo/Sao_Paulo.html" name="São Paulo">
+                <category id="general">
+                    <newsPapers id="br_folha_spaulo" name="Folha de São Paulo"/>
+                    <newsPapers id="br_estado_spaulo" name="O Estado de São Paulo"/>
+                </category>
+            </area>
+        </area>
+        <area id="/cl/" name="Chile">
+            <category id="general">
+                <newsPapers id="cl_mercurio" name="El Mercurio"/>
+                <newsPapers id="cl_tercera" name="La Tercera"/>
+                <newsPapers id="cl_diario21" name="Diario 21"/>
+                <newsPapers id="cl_chanarcillo" name="Diario Chañarcillo"/>
+                <newsPapers id="cl_centro" name="Diario el Centro"/>
+                <newsPapers id="diario_concepcion" name="Diario de Concepción"/>
+                <newsPapers id="cl_tipografo" name="El Tipógrafo"/>
+                <newsPapers id="andino" name="Diario El Andino"/>
+                <newsPapers id="cl_divisadero" name="Diario El Divisadero"/>
+            </category>
+            <category id="economy">
+                <newsPapers id="cl_estrategia" name="Estrategia"/>
+            </category>
+            <category id="popular">
+                <newsPapers id="cl_cuarta" name="La Cuarta"/>
+                <newsPapers id="cl_ultimas_noticias" name="Las Últimas Noticias"/>
+            </category>
+            <area id="/cl/geo/1_I_Region.html" name="I Region">
+                <category id="general">
+                    <newsPapers id="cl_diario21" name="Diario 21"/>
+                </category>
+            </area>
+            <area id="/cl/geo/2_II_Region.html" name="II Region">
+                <category id="general"/>
+            </area>
+            <area id="/cl/geo/3_III_Region.html" name="III Region">
+                <category id="general">
+                    <newsPapers id="cl_chanarcillo" name="Diario Chañarcillo"/>
+                </category>
+            </area>
+            <area id="/cl/geo/4_IV_region.html" name="IV Region">
+                <category id="general"/>
+            </area>
+            <area id="/cl/geo/9_IX_Region.html" name="IX Region">
+                <category id="general"/>
+            </area>
+            <area id="/cl/geo/Santiago_de_Chile.html" name="Santiago de Chile">
+                <category id="general">
+                    <newsPapers id="cl_mercurio" name="El Mercurio"/>
+                    <newsPapers id="cl_cuarta" name="La Cuarta"/>
+                    <newsPapers id="cl_tercera" name="La Tercera"/>
+                    <newsPapers id="cl_ultimas_noticias" name="Las Últimas Noticias"/>
+                </category>
+            </area>
+            <area id="/cl/geo/Tarapaca.html" name="Tarapaca">
+                <category id="general"/>
+            </area>
+            <area id="/cl/geo/5_V_Region.html" name="V Region">
+                <category id="general">
+                    <newsPapers id="andino" name="Diario El Andino"/>
+                </category>
+            </area>
+            <area id="/cl/geo/6_VI_region.html" name="VI Region">
+                <category id="general">
+                    <newsPapers id="cl_tipografo" name="El Tipógrafo"/>
+                </category>
+            </area>
+            <area id="/cl/geo/7_VII_Region.html" name="VII Region">
+                <category id="general">
+                    <newsPapers id="cl_centro" name="Diario el Centro"/>
+                </category>
+            </area>
+            <area id="/cl/geo/8_VIII_Region.html" name="VIII Region">
+                <category id="general">
+                    <newsPapers id="diario_concepcion" name="Diario de Concepción"/>
+                </category>
+            </area>
+            <area id="/cl/geo/A_X_Region.html" name="X Region">
+                <category id="general"/>
+            </area>
+            <area id="/cl/geo/B_XI_region.html" name="XI Region">
+                <category id="general">
+                    <newsPapers id="cl_divisadero" name="Diario El Divisadero"/>
+                </category>
+            </area>
+            <area id="/cl/geo/C_XII_region.html" name="XII Region">
+                <category id="general"/>
+            </area>
+            <area id="/cl/geo/E_XIV_Region.html" name="XIV Region">
+                <category id="general"/>
+            </area>
+            <area id="/cl/geo/F_XV_Region.html" name="XV Region">
+                <category id="general"/>
+            </area>
+        </area>
+        <area id="/co/" name="Colombia">
+            <category id="general">
+                <newsPapers id="co_eltiempo" name="El Tiempo"/>
+                <newsPapers id="co_elcolombiano" name="El Colombiano"/>
+                <newsPapers id="co_espectador" name="El Espectador"/>
+                <newsPapers id="co_vanguardia" name="Vanguardia Liberal"/>
+                <newsPapers id="co_elmundo" name="El Mundo"/>
+                <newsPapers id="co_elpais" name="El País - Cali"/>
+                <newsPapers id="co_universal" name="El Universal"/>
+                <newsPapers id="co_diario_otun" name="Diario de Otún"/>
+                <newsPapers id="co_vanguardia_valledupar" name="Vanguardia - Valledupar - Cesar"/>
+                <newsPapers id="el_frente" name="El Frente"/>
+                <newsPapers id="co_cronica_quindio" name="La Crónica del Quindío"/>
+                <newsPapers id="co_patria" name="La Patria"/>
+                <newsPapers id="co_diario_magdalena" name="Hoy Diario del Magdalena"/>
+                <newsPapers id="co_libertad" name="La Libertad"/>
+                <newsPapers id="pilon" name="El Pilón"/>
+            </category>
+            <category id="economy">
+                <newsPapers id="co_republica" name="La Republica"/>
+                <newsPapers id="co_portafolio" name="Portafolio"/>
+            </category>
+            <area id="/co/geo/Armenia.co.html" name="Armenia">
+                <category id="general">
+                    <newsPapers id="co_cronica_quindio" name="La Crónica del Quindío"/>
+                </category>
+            </area>
+            <area id="/co/geo/Barranquilla.html" name="Barranquilla">
+                <category id="general">
+                    <newsPapers id="co_libertad" name="La Libertad"/>
+                </category>
+            </area>
+            <area id="/co/geo/Bogota.html" name="Bogota">
+                <category id="general">
+                    <newsPapers id="co_eltiempo" name="El Tiempo"/>
+                    <newsPapers id="co_espectador" name="El Espectador"/>
+                    <newsPapers id="co_republica" name="La Republica"/>
+                </category>
+            </area>
+            <area id="/co/geo/Bucaramanga.html" name="Bucaramanga">
+                <category id="general">
+                    <newsPapers id="co_vanguardia" name="Vanguardia Liberal"/>
+                    <newsPapers id="el_frente" name="El Frente"/>
+                </category>
+            </area>
+            <area id="/co/geo/Cali.html" name="Cali">
+                <category id="general">
+                    <newsPapers id="co_elpais" name="El País - Cali"/>
+                </category>
+            </area>
+            <area id="/co/geo/Cartagena.co.html" name="Cartagena">
+                <category id="general">
+                    <newsPapers id="co_universal" name="El Universal"/>
+                </category>
+            </area>
+            <area id="/co/geo/Cordoba.co.html" name="Cordoba">
+                <category id="general"/>
+            </area>
+            <area id="/co/geo/Cucuta.html" name="Cucuta">
+                <category id="general"/>
+            </area>
+            <area id="/co/geo/Manizales.html" name="Manizales">
+                <category id="general">
+                    <newsPapers id="co_patria" name="La Patria"/>
+                </category>
+            </area>
+            <area id="/co/geo/Medellin.html" name="Medellin">
+                <category id="general">
+                    <newsPapers id="co_elcolombiano" name="El Colombiano"/>
+                    <newsPapers id="co_elmundo" name="El Mundo"/>
+                </category>
+            </area>
+            <area id="/co/geo/Neiva.html" name="Neiva">
+                <category id="general"/>
+            </area>
+            <area id="/co/geo/Pereira.html" name="Pereira">
+                <category id="general">
+                    <newsPapers id="co_diario_otun" name="Diario de Otún"/>
+                </category>
+            </area>
+            <area id="/co/geo/Santa_Marta.html" name="Santa Marta">
+                <category id="general">
+                    <newsPapers id="co_diario_magdalena" name="Hoy Diario del Magdalena"/>
+                </category>
+            </area>
+            <area id="/co/geo/Sucre.html" name="Sucre">
+                <category id="general"/>
+            </area>
+            <area id="/co/geo/Valledupar.html" name="Valledupar">
+                <category id="general">
+                    <newsPapers id="co_vanguardia_valledupar" name="Vanguardia - Valledupar - Cesar"/>
+                    <newsPapers id="pilon" name="El Pilón"/>
+                </category>
+            </area>
+        </area>
+        <area id="/cr/" name="Costa Rica">
+            <category id="general">
+                <newsPapers id="cr_nacion" name="La Nación - Costa Rica"/>
+                <newsPapers id="cr_extra" name="Diario Extra"/>
+            </category>
+        </area>
+        <area id="/cu/" name="Cuba">
+            <category id="general">
+                <newsPapers id="cu_granma" name="Granma"/>
+            </category>
+        </area>
+        <area id="/do/" name="Dominican Rep.">
+            <category id="general">
+                <newsPapers id="do_listin" name="Listín Diario"/>
+                <newsPapers id="do_diario_libre" name="Diario Libre"/>
+                <newsPapers id="el_caribe" name="El Caribe"/>
+                <newsPapers id="do_eldia" name="El Día"/>
+            </category>
+        </area>
+        <area id="/ec/" name="Ecuador">
+            <category id="general">
+                <newsPapers id="ec_comercio" name="El Comercio"/>
+                <newsPapers id="ec_expreso" name="Expreso"/>
+                <newsPapers id="ec_diario_hoy" name="Diario Hoy"/>
+                <newsPapers id="ec_mercurio" name="Diario El Mercurio"/>
+            </category>
+        </area>
+        <area id="/sv/" name="El Salvador">
+            <category id="general">
+                <newsPapers id="diario_co_latino" name="Diario Co Latino"/>
+                <newsPapers id="prensa_grafica" name="La Prensa Gráfica"/>
+                <newsPapers id="elmundo" name="El Mundo"/>
+            </category>
+        </area>
+        <area id="/gt/" name="Guatemala">
+            <category id="general">
+                <newsPapers id="gt_prensa_libre" name="Prensa Libre"/>
+            </category>
+        </area>
+        <area id="/hn/" name="Honduras">
+            <category id="general">
+                <newsPapers id="hn_heraldo" name="El Heraldo"/>
+                <newsPapers id="laprensa" name="La Prensa"/>
+                <newsPapers id="latribuna" name="La Tribuna"/>
+                <newsPapers id="tiempo" name="Tiempo"/>
+            </category>
+            <category id="sport">
+                <newsPapers id="latribuna_deportiva" name="La Tribuna Deportiva"/>
+                <newsPapers id="diez" name="Diez"/>
+            </category>
+        </area>
+        <area id="/mx/" name="Mexico">
+            <category id="general">
+                <newsPapers id="mx_universal" name="El Universal"/>
+                <newsPapers id="mx_jornada" name="La Jornada"/>
+                <newsPapers id="mx_reforma" name="Reforma"/>
+                <newsPapers id="mx_excelsior" name="Excelsior"/>
+                <newsPapers id="mx_laprensa" name="La Prensa"/>
+                <newsPapers id="mx_milenio" name="Milenio"/>
+                <newsPapers id="mx_diario_istmo" name="Diario del Istmo - Voz en Libertad"/>
+                <newsPapers id="mx_informador" name="El Informador"/>
+                <newsPapers id="mx_elnorte" name="El Norte"/>
+                <newsPapers id="mx_sol_puebla" name="El Sol de Puebla"/>
+                <newsPapers id="mx_diario_xalapa" name="Diario de Xalapa"/>
+                <newsPapers id="mx_diario_yucatan" name="Diario de Yucatán"/>
+                <newsPapers id="mx_diario_chihuahua" name="El Diario de Chihuahua"/>
+                <newsPapers id="mx_diario_nuevolaredo" name="El Diario de Nuevo Laredo"/>
+                <newsPapers id="mx_imparcial" name="El Imparcial"/>
+                <newsPapers id="mx_independiente_hidalgo" name="El Independiente de Hidalgo"/>
+                <newsPapers id="mx_orbe" name="El Orbe"/>
+                <newsPapers id="mx_sol_mazatlan" name="El Sol de Mazatlán"/>
+                <newsPapers id="mx_sol_mexico" name="El Sol de México"/>
+                <newsPapers id="mx_sol_sinaloa" name="El Sol de Sinaloa"/>
+                <newsPapers id="mx_expreso" name="Expreso"/>
+                <newsPapers id="mx_frontera" name="Frontera"/>
+                <newsPapers id="mx_cronica" name="La Crónica de Hoy"/>
+                <newsPapers id="mx_meridiano" name="Meridiano de Nayarit"/>
+                <newsPapers id="mx_milenio_edomex" name="Milenio de Estado de México"/>
+                <newsPapers id="mx_milenio_monterrey" name="Milenio de Monterrey"/>
+                <newsPapers id="mx_milenio_hidalgo" name="Milenio de Pachuca"/>
+                <newsPapers id="mx_milenio_puebla" name="Milenio de Puebla"/>
+            </category>
+            <category id="sport">
+                <newsPapers id="mx_esto" name="Esto"/>
+                <newsPapers id="mx_record" name="Record"/>
+                <newsPapers id="mx_record_guadalajara" name="Record - Guadalajara"/>
+                <newsPapers id="mx_record_monterrey" name="Record - Monterrey"/>
+            </category>
+            <category id="economy">
+                <newsPapers id="mx_financiero" name="El Financiero"/>
+            </category>
+            <area id="/mx/geo/Aguascalientes.html" name="Aguascalientes">
+                <category id="general">
+                    <newsPapers id="mx_sol_centro" name="El Sol del Centro"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Baja_California.html" name="Baja California">
+                <category id="general">
+                    <newsPapers id="mx_frontera" name="Frontera"/>
+                    <newsPapers id="mx_cronica_baja_cal" name="La Crónica de Baja California"/>
+                    <newsPapers id="mx_voz_frontera" name="La Voz de la Frontera"/>
+                    <newsPapers id="mx_sol_tijuana" name="El Sol de Tijuana"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Campeche.html" name="Campeche">
+                <category id="general"/>
+            </area>
+            <area id="/mx/geo/Chiapas.html" name="Chiapas">
+                <category id="general">
+                    <newsPapers id="mx_orbe" name="El Orbe"/>
+                    <newsPapers id="mx_diario_sur" name="El Diario del Sur"/>
+                    <newsPapers id="mx_siete_chiapas" name="El Sie7e de Chiapas"/>
+                    <newsPapers id="mx_heraldo_chiapas" name="El Heraldo de Chiapas"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Chihuahua.html" name="Chihuahua">
+                <category id="general">
+                    <newsPapers id="mx_diario_chihuahua" name="El Diario de Chihuahua"/>
+                    <newsPapers id="mx_sol_parral" name="El Sol de Parral"/>
+                    <newsPapers id="mx_heraldo_chihuahua" name="El Heraldo de Chihuahua"/>
+                    <newsPapers id="mx_el_mexicano" name="El Mexicano"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Coahuila.html" name="Coahuila">
+                <category id="general">
+                    <newsPapers id="mx_opinion_torreon" name="Opinión"/>
+                    <newsPapers id="mx_vanguardia" name="Vanguardia"/>
+                    <newsPapers id="mx_zocalo" name="Zócalo de Saltillo"/>
+                    <newsPapers id="mx_siglo_torreon" name="El Siglo de Torreon"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Durango.html" name="Durango">
+                <category id="general">
+                    <newsPapers id="mx_siglo_durango" name="El Siglo de Durango"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Guanajuato.html" name="Guanajuato">
+                <category id="general">
+                    <newsPapers id="mx_sol_leon" name="El Sol de León"/>
+                    <newsPapers id="mx_sol_bajio" name="El Sol del Bajio"/>
+                    <newsPapers id="mx_milenio_leon" name="Milenio de León"/>
+                    <newsPapers id="mx_sol_irapuato" name="El Sol de Irapuato"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Guerrero.html" name="Guerrero">
+                <category id="general">
+                    <newsPapers id="mx_jornada_guerrrero" name="La Jornada de Guerrero"/>
+                    <newsPapers id="mx_sol_acapulco" name="El Sol de Acapulco"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Hidalgo.html" name="Hidalgo">
+                <category id="general">
+                    <newsPapers id="mx_independiente_hidalgo" name="El Independiente de Hidalgo"/>
+                    <newsPapers id="mx_milenio_hidalgo" name="Milenio de Pachuca"/>
+                    <newsPapers id="mx_sol_hidalgo" name="El Sol de Hidalgo"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Jalisco.html" name="Jalisco">
+                <category id="general">
+                    <newsPapers id="mx_informador" name="El Informador"/>
+                    <newsPapers id="mx_publico" name="Público"/>
+                    <newsPapers id="mx_occidental" name="El Occidental"/>
+                    <newsPapers id="mx_record_guadalajara" name="Record - Guadalajara"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Mexico_DF.html" name="Mexico City">
+                <category id="general">
+                    <newsPapers id="mx_universal" name="El Universal"/>
+                    <newsPapers id="mx_jornada" name="La Jornada"/>
+                    <newsPapers id="mx_reforma" name="Reforma"/>
+                    <newsPapers id="mx_esto" name="Esto"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Est_Mexico.html" name="Mexico State">
+                <category id="general">
+                    <newsPapers id="mx_milenio_edomex" name="Milenio de Estado de México"/>
+                    <newsPapers id="abc_toluca" name="A.B.C. "/>
+                    <newsPapers id="el_manana" name="El Mañana de Toluca"/>
+                    <newsPapers id="el_vespertino" name="El Vespertino"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Michoacan.html" name="Michoacan">
+                <category id="general">
+                    <newsPapers id="mx_voz_michoacan" name="La Voz de Michoacán"/>
+                    <newsPapers id="mx_jornada_michoacan" name="La Jornada de Michoacán"/>
+                    <newsPapers id="mx_provincia" name="Provincia"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Morelos.html" name="Morelos">
+                <category id="general">
+                    <newsPapers id="mx_diario_morelos" name="Diario de Morelos"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Nayarit.html" name="Nayarit">
+                <category id="general">
+                    <newsPapers id="mx_meridiano" name="Meridiano de Nayarit"/>
+                    <newsPapers id="mx_express" name="Periódico Express"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Nuevo_Leon.html" name="Nuevo Leon">
+                <category id="general">
+                    <newsPapers id="mx_elnorte" name="El Norte"/>
+                    <newsPapers id="mx_milenio_monterrey" name="Milenio de Monterrey"/>
+                    <newsPapers id="mx_record_monterrey" name="Record - Monterrey"/>
+                    <newsPapers id="mx_porvenir" name="El Porvenir de Monterrey"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Oaxaca.html" name="Oaxaca">
+                <category id="general"/>
+            </area>
+            <area id="/mx/geo/Puebla.html" name="Puebla">
+                <category id="general">
+                    <newsPapers id="mx_sol_puebla" name="El Sol de Puebla"/>
+                    <newsPapers id="mx_milenio_puebla" name="Milenio de Puebla"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Queretaro.html" name="Queretaro">
+                <category id="general">
+                    <newsPapers id="mx_diario_queretaro" name="Diario de Querétaro"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Quintana_Roo.html" name="Quintana Roo">
+                <category id="general">
+                    <newsPapers id="periodico_quintana_roo" name="El Periódico de Quintana Roo"/>
+                    <newsPapers id="novedades_quintana_roo" name="Novedades de Quintana Roo"/>
+                    <newsPapers id="lavoz_quinatana_roo" name="La Voz de Quintana Roo"/>
+                </category>
+            </area>
+            <area id="/mx/geo/San_Luis_Potosi.html" name="San Luis Potosi">
+                <category id="general">
+                    <newsPapers id="mx_sol_sanluis" name="El Sol de San Luis"/>
+                    <newsPapers id="san_luis_hoy" name="San Luis Hoy"/>
+                    <newsPapers id="huasteca_hoy" name="Huasteca Hoy"/>
+                    <newsPapers id="mx_jornada_sanluis" name="La Jornada de San Luis"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Sinaloa.html" name="Sinaloa">
+                <category id="general">
+                    <newsPapers id="mx_sol_mazatlan" name="El Sol de Mazatlán"/>
+                    <newsPapers id="mx_sol_sinaloa" name="El Sol de Sinaloa"/>
+                    <newsPapers id="mx_noroeste" name="Periódico Noroeste"/>
+                    <newsPapers id="primera_hora" name="Primera Hora de Sinaloa"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Sonora.html" name="Sonora">
+                <category id="general">
+                    <newsPapers id="mx_imparcial" name="El Imparcial"/>
+                    <newsPapers id="mx_expreso" name="Expreso"/>
+                    <newsPapers id="mx_vigia_sonora" name="El Vigia"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Tabasco.html" name="Tabasco">
+                <category id="general">
+                    <newsPapers id="mx_novedades_tabasco" name="Novedades de Tabasco"/>
+                    <newsPapers id="mx_tabasco_hoy" name="Tabasco Hoy"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Tamaulipas.html" name="Tamaulipas">
+                <category id="general">
+                    <newsPapers id="mx_diario_nuevolaredo" name="El Diario de Nuevo Laredo"/>
+                    <newsPapers id="mx_lider" name="Lider Informativo"/>
+                    <newsPapers id="mx_milenio_tampico" name="Milenio - Tampico"/>
+                    <newsPapers id="mx_razon_tampico" name="La Razón - Tampico"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Tlaxcala.html" name="Tlaxcala">
+                <category id="general">
+                    <newsPapers id="mx_sol_tlaxcala" name="El Sol de Tlaxcala"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Veracruz.html" name="Veracruz">
+                <category id="general">
+                    <newsPapers id="mx_diario_istmo" name="Diario del Istmo - Voz en Libertad"/>
+                    <newsPapers id="mx_diario_xalapa" name="Diario de Xalapa"/>
+                    <newsPapers id="mx_imagen_veracruz" name="Imagen de Veracruz"/>
+                    <newsPapers id="mx_liberal_sur" name="El Liberal del Sur"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Yucatan.html" name="Yucatan">
+                <category id="general">
+                    <newsPapers id="mx_diario_yucatan" name="Diario de Yucatán"/>
+                    <newsPapers id="milenio_novedades" name="Milenio Novedades"/>
+                </category>
+            </area>
+            <area id="/mx/geo/Zacatecas.html" name="Zacatecas">
+                <category id="general">
+                    <newsPapers id="mx_sol_zacatecas" name="El Sol de Zacatecas"/>
+                </category>
+            </area>
+        </area>
+        <area id="/ni/" name="Nicaragua">
+            <category id="general">
+                <newsPapers id="ni_nuevo_diario" name="El Nuevo Diario"/>
+                <newsPapers id="ni_prensa" name="La Prensa"/>
+            </category>
+            <category id="popular">
+                <newsPapers id="hoy" name="Hoy"/>
+            </category>
+        </area>
+        <area id="/pa/" name="Panama">
+            <category id="general">
+                <newsPapers id="el_siglo" name="El Siglo"/>
+                <newsPapers id="estrella_panama" name="La Estrella de Panamá"/>
+            </category>
+        </area>
+        <area id="/py/" name="Paraguay">
+            <category id="general">
+                <newsPapers id="abccolor" name="ABC Color"/>
+                <newsPapers id="nacion" name="La Nación"/>
+                <newsPapers id="py_ultimahora" name="Última Hora"/>
+                <newsPapers id="py_5dias" name="5 Días"/>
+            </category>
+            <category id="popular">
+                <newsPapers id="cronica" name="Diario Crónica"/>
+            </category>
+        </area>
+        <area id="/pe/" name="Peru">
+            <category id="general">
+                <newsPapers id="pe_comercio" name="Comercio"/>
+                <newsPapers id="pe_peru21" name="Perú 21"/>
+                <newsPapers id="pe_correo" name="Diario Correo"/>
+                <newsPapers id="pe_expreso" name="Expreso"/>
+                <newsPapers id="pe_republica" name="La Republica"/>
+                <newsPapers id="diario16" name="Diario16"/>
+                <newsPapers id="pe_correo_cusco" name="Diario Correo - Cusco"/>
+                <newsPapers id="pe_correo_arequipa" name="Diario Correo - Arequipa"/>
+                <newsPapers id="pe_correo_ayacucho" name="Diario Correo - Ayacucho"/>
+                <newsPapers id="pe_primera" name="La Primera de Perú"/>
+                <newsPapers id="del_pais" name="Del País"/>
+                <newsPapers id="diario_noticias" name="Diario Noticias"/>
+            </category>
+            <category id="sport">
+                <newsPapers id="pe_depor" name="Depor"/>
+            </category>
+            <category id="economy">
+                <newsPapers id="pe_gestion" name="Diario Gestión"/>
+            </category>
+            <area id="/pe/geo/Ancash.html" name="Ancash">
+                <category id="general"/>
+            </area>
+            <area id="/pe/geo/Arequipa.html" name="Arequipa">
+                <category id="general">
+                    <newsPapers id="pe_correo_arequipa" name="Diario Correo - Arequipa"/>
+                    <newsPapers id="diario_noticias" name="Diario Noticias"/>
+                </category>
+            </area>
+            <area id="/pe/geo/Ayacucho.html" name="Ayacucho">
+                <category id="general">
+                    <newsPapers id="pe_correo_ayacucho" name="Diario Correo - Ayacucho"/>
+                </category>
+            </area>
+            <area id="/pe/geo/Cajamarca.html" name="Cajamarca">
+                <category id="general"/>
+            </area>
+            <area id="/pe/geo/Cuzco.html" name="Cuzco">
+                <category id="general">
+                    <newsPapers id="pe_correo_cusco" name="Diario Correo - Cusco"/>
+                </category>
+            </area>
+            <area id="/pe/geo/Lima.html" name="Lima">
+                <category id="general">
+                    <newsPapers id="pe_comercio" name="Comercio"/>
+                    <newsPapers id="pe_peru21" name="Perú 21"/>
+                    <newsPapers id="pe_correo" name="Diario Correo"/>
+                    <newsPapers id="pe_gestion" name="Diario Gestión"/>
+                </category>
+            </area>
+        </area>
+        <area id="/pr/" name="Puerto Rico">
+            <category id="general">
+                <newsPapers id="primera_hora" name="Primera Hora"/>
+                <newsPapers id="nuevo_dia" name="El Nuevo Día"/>
+            </category>
+        </area>
+        <area id="/uy/" name="Uruguay">
+            <category id="general">
+                <newsPapers id="uy_observador" name="El Observador"/>
+                <newsPapers id="uy_elpais" name="El País"/>
+                <newsPapers id="uy_republica" name="La República"/>
+                <newsPapers id="uy_juventud" name="Diario La Juventud"/>
+                <newsPapers id="uy_telegrafo" name="El Telégrafo"/>
+                <newsPapers id="uy_ladiaria" name="La Diaria"/>
+            </category>
+        </area>
+        <area id="/ve/" name="Venezuela">
+            <category id="general">
+                <newsPapers id="ve_nacional" name="El Nacional"/>
+                <newsPapers id="ve_universal" name="Universal"/>
+                <newsPapers id="ve_correo_caroni" name="Correo del Caroní"/>
+                <newsPapers id="ve_version_final" name="Versión Final"/>
+                <newsPapers id="ve_clarin_aragua" name="El Clarín de la Victoria para Aragua"/>
+                <newsPapers id="ve_diario_guayana" name="El Diario de Guayana"/>
+                <newsPapers id="ve_informador" name="El Informador"/>
+                <newsPapers id="tiempo_puerto_cruz" name="El Tiempo - El periódico del pueblo oriental"/>
+                <newsPapers id="ve_nueva_prensa" name="Nueva Prensa Guayana"/>
+                <newsPapers id="primicia" name="Primicia"/>
+                <newsPapers id="la_hora" name="La Hora"/>
+                <newsPapers id="ve_razon" name="La Razón "/>
+                <newsPapers id="mundo_oriental" name="Mundo Oriental"/>
+                <newsPapers id="nueva_prensa_oriente" name="Nueva Prensa de Oriente"/>
+                <newsPapers id="vision_apurena" name="Visión Apureña"/>
+                <newsPapers id="periodiquito" name="Periodiquito de Aragua"/>
+                <newsPapers id="periodiquito_guarico" name="Periodiquito de Guárico"/>
+                <newsPapers id="ve_impacto" name="Diario Impacto"/>
+                <newsPapers id="el_luchador" name="El Luchador"/>
+                <newsPapers id="ve_ultimasnoticias" name="Últimas Noticias"/>
+                <newsPapers id="ve_diario_costa" name="Diario La Costa"/>
+            </category>
+            <category id="sport">
+                <newsPapers id="ve_lider" name="Lider en deportes"/>
+            </category>
+            <category id="economy">
+                <newsPapers id="ve_mundo" name="El Mundo - Economía &amp; Negocios"/>
+            </category>
+            <area id="/ve/geo/Anzoategui.html" name="Anzoategui">
+                <category id="general">
+                    <newsPapers id="tiempo_puerto_cruz" name="El Tiempo - El periódico del pueblo oriental"/>
+                    <newsPapers id="mundo_oriental" name="Mundo Oriental"/>
+                    <newsPapers id="nueva_prensa_oriente" name="Nueva Prensa de Oriente"/>
+                    <newsPapers id="ve_impacto" name="Diario Impacto"/>
+                </category>
+            </area>
+            <area id="/ve/geo/Apure.html" name="Apure">
+                <category id="general">
+                    <newsPapers id="vision_apurena" name="Visión Apureña"/>
+                </category>
+            </area>
+            <area id="/ve/geo/Aragua.html" name="Aragua">
+                <category id="general">
+                    <newsPapers id="ve_clarin_aragua" name="El Clarín de la Victoria para Aragua"/>
+                    <newsPapers id="periodiquito" name="Periodiquito de Aragua"/>
+                </category>
+            </area>
+            <area id="/ve/geo/Barinas.html" name="Barinas">
+                <category id="general"/>
+            </area>
+            <area id="/ve/geo/Bolivar.html" name="Bolivar">
+                <category id="general">
+                    <newsPapers id="ve_correo_caroni" name="Correo del Caroní"/>
+                    <newsPapers id="ve_diario_guayana" name="El Diario de Guayana"/>
+                    <newsPapers id="ve_nueva_prensa" name="Nueva Prensa Guayana"/>
+                    <newsPapers id="primicia" name="Primicia"/>
+                </category>
+            </area>
+            <area id="/ve/geo/Carabobo.html" name="Carabobo">
+                <category id="general">
+                    <newsPapers id="ve_diario_costa" name="Diario La Costa"/>
+                </category>
+            </area>
+            <area id="/ve/geo/Caracas.html" name="Caracas">
+                <category id="general">
+                    <newsPapers id="ve_nacional" name="El Nacional"/>
+                    <newsPapers id="ve_universal" name="Universal"/>
+                    <newsPapers id="ve_razon" name="La Razón "/>
+                    <newsPapers id="ve_mundo" name="El Mundo - Economía &amp; Negocios"/>
+                </category>
+            </area>
+            <area id="/ve/geo/Cojedes.html" name="Cojedes">
+                <category id="general"/>
+            </area>
+            <area id="/ve/geo/Falcon.html" name="Falcon">
+                <category id="general"/>
+            </area>
+            <area id="/ve/geo/Guarico.html" name="Guarico">
+                <category id="general">
+                    <newsPapers id="periodiquito_guarico" name="Periodiquito de Guárico"/>
+                </category>
+            </area>
+            <area id="/ve/geo/Lara.html" name="Lara">
+                <category id="general">
+                    <newsPapers id="ve_informador" name="El Informador"/>
+                </category>
+            </area>
+            <area id="/ve/geo/Miranda.html" name="Miranda">
+                <category id="general"/>
+            </area>
+            <area id="/ve/geo/Nueva_Esparta.html" name="Nueva Esparta">
+                <category id="general">
+                    <newsPapers id="la_hora" name="La Hora"/>
+                </category>
+            </area>
+            <area id="/ve/geo/Portuguesa.html" name="Portuguesa">
+                <category id="general"/>
+            </area>
+            <area id="/ve/geo/Sucre.ve.html" name="Sucre">
+                <category id="general"/>
+            </area>
+            <area id="/ve/geo/Trujillo.html" name="Trujillo">
+                <category id="general"/>
+            </area>
+            <area id="/ve/geo/Zulia.html" name="Zulia">
+                <category id="general">
+                    <newsPapers id="ve_version_final" name="Versión Final"/>
+                </category>
+            </area>
+        </area>
+    </areas>
+    <areas id="/ca/" name="Canada">
+        <category id="general">
+            <newsPapers id="ca_toronto_star" name="The Toronto Star"/>
+            <newsPapers id="ca_journal_montreal" name="Le Journal de Montréal"/>
+            <newsPapers id="ca_toronto_sun" name="The Toronto Sun"/>
+            <newsPapers id="ca_province" name="The Province"/>
+            <newsPapers id="winnipeg_free_press" name="Winnipeg Free Press"/>
+            <newsPapers id="ca_globe_mail" name="The Globe and Mail"/>
+            <newsPapers id="ca_national_post" name="The National Post"/>
+            <newsPapers id="ca_la_presse" name="La Presse"/>
+            <newsPapers id="ca_ottawa_citizen" name="Ottawa Citizen"/>
+            <newsPapers id="ca_montreal_gazette" name="The Gazette"/>
+            <newsPapers id="ca_vancouver_sun" name="The Vancouver Sun"/>
+        </category>
+        <area id="/ca/geo/British_Columbia.html" name="British Columbia">
+            <category id="general">
+                <newsPapers id="ca_province" name="The Province"/>
+                <newsPapers id="ca_vancouver_sun" name="The Vancouver Sun"/>
+            </category>
+        </area>
+        <area id="/ca/geo/Manitoba.html" name="Manitoba">
+            <category id="general">
+                <newsPapers id="winnipeg_free_press" name="Winnipeg Free Press"/>
+            </category>
+        </area>
+        <area id="/ca/geo/Ontario.html" name="Ontario">
+            <category id="general">
+                <newsPapers id="ca_toronto_star" name="The Toronto Star"/>
+                <newsPapers id="ca_toronto_sun" name="The Toronto Sun"/>
+                <newsPapers id="ca_ottawa_citizen" name="Ottawa Citizen"/>
+            </category>
+        </area>
+        <area id="/ca/geo/Quebec.html" name="Quebec">
+            <category id="general">
+                <newsPapers id="ca_journal_montreal" name="Le Journal de Montréal"/>
+                <newsPapers id="ca_la_presse" name="La Presse"/>
+                <newsPapers id="ca_montreal_gazette" name="The Gazette"/>
+            </category>
+        </area>
+    </areas>
+    <areas id="/us/" name="USA">
+        <category id="general">
+            <newsPapers id="newyork_times" name="New York Times"/>
+            <newsPapers id="washington_post" name="Washington Post"/>
+            <newsPapers id="boston_globe" name="Boston Globe"/>
+            <newsPapers id="dallas_morning_news" name="Dallas Morning News"/>
+            <newsPapers id="latimes" name="Los Angeles Times"/>
+            <newsPapers id="chicago_tribune" name="Chicago Tribune"/>
+            <newsPapers id="nuevo_herald" name="El Nuevo Herald"/>
+            <newsPapers id="miami_herald" name="Miami Herald"/>
+            <newsPapers id="newyork_post" name="New York Post"/>
+            <newsPapers id="sf_chronicle" name="San Francisco Chronicle"/>
+            <newsPapers id="detroit_free_press" name="Detroit Free Press"/>
+            <newsPapers id="philadelphia_inquirer" name="Philadelphia Inquirer"/>
+            <newsPapers id="seattle_times" name="Seattle Times"/>
+            <newsPapers id="st_louis_post" name="St. Louis Post-Dispatch"/>
+            <newsPapers id="star_tribune" name="Star Tribune"/>
+            <newsPapers id="starledger" name="Star-Ledger"/>
+            <newsPapers id="atlanta_journal_conts" name="The Atlanta Journal-Constitution"/>
+            <newsPapers id="baltimore_sun" name="The Baltimore Sun"/>
+            <newsPapers id="sacramento_bee" name="The Sacramento Bee"/>
+            <newsPapers id="arizona_republic" name="Arizona Republic News"/>
+            <newsPapers id="chicago_sun_times" name="Chicago Sun-Times"/>
+            <newsPapers id="newsday" name="Newsday"/>
+            <newsPapers id="denver_post" name="The Denver Post"/>
+            <newsPapers id="plain_dealer" name="The Plain Dealer"/>
+            <newsPapers id="union_tribune" name="The San Diego Union-Tribune"/>
+            <newsPapers id="arizona_daily_star" name="Arizona Daily Star"/>
+            <newsPapers id="ny_daily_news" name="Daily News - New York"/>
+            <newsPapers id="press_register" name="Press-Register"/>
+        </category>
+        <category id="economy">
+            <newsPapers id="wsj" name="Wall Street Jounal"/>
+        </category>
+        <category id="magazine">
+            <newsPapers id="time" name="Time Magazine"/>
+            <newsPapers id="new_yorker" name="The New Yorker"/>
+        </category>
+        <area id="/us/geo/Alabama.html" name="Alabama">
+            <category id="general">
+                <newsPapers id="press_register" name="Press-Register"/>
+                <newsPapers id="birmingham_news" name="Birmingham News"/>
+            </category>
+        </area>
+        <area id="/us/geo/Arizona.html" name="Arizona">
+            <category id="general">
+                <newsPapers id="arizona_republic" name="Arizona Republic News"/>
+                <newsPapers id="arizona_daily_star" name="Arizona Daily Star"/>
+            </category>
+        </area>
+        <area id="/us/geo/California.html" name="California">
+            <category id="general">
+                <newsPapers id="latimes" name="Los Angeles Times"/>
+                <newsPapers id="sf_chronicle" name="San Francisco Chronicle"/>
+                <newsPapers id="sacramento_bee" name="The Sacramento Bee"/>
+                <newsPapers id="union_tribune" name="The San Diego Union-Tribune"/>
+            </category>
+        </area>
+        <area id="/us/geo/Colorado.html" name="Colorado">
+            <category id="general">
+                <newsPapers id="denver_post" name="The Denver Post"/>
+            </category>
+        </area>
+        <area id="/us/geo/Florida.html" name="Florida">
+            <category id="general">
+                <newsPapers id="nuevo_herald" name="El Nuevo Herald"/>
+                <newsPapers id="miami_herald" name="Miami Herald"/>
+                <newsPapers id="st_petersburg_times" name="St. Petersburg Times"/>
+            </category>
+        </area>
+        <area id="/us/geo/Georgia.html" name="Georgia">
+            <category id="general">
+                <newsPapers id="atlanta_journal_conts" name="The Atlanta Journal-Constitution"/>
+            </category>
+        </area>
+        <area id="/us/geo/Illinois.html" name="Illinois">
+            <category id="general">
+                <newsPapers id="chicago_tribune" name="Chicago Tribune"/>
+                <newsPapers id="chicago_sun_times" name="Chicago Sun-Times"/>
+            </category>
+        </area>
+        <area id="/us/geo/Indiana.html" name="Indiana">
+            <category id="general"/>
+        </area>
+        <area id="/us/geo/Maryland.html" name="Maryland">
+            <category id="general">
+                <newsPapers id="baltimore_sun" name="The Baltimore Sun"/>
+            </category>
+        </area>
+        <area id="/us/geo/Massachusetts.html" name="Massachusetts">
+            <category id="general">
+                <newsPapers id="boston_globe" name="Boston Globe"/>
+            </category>
+        </area>
+        <area id="/us/geo/Michigan.html" name="Michigan">
+            <category id="general">
+                <newsPapers id="detroit_free_press" name="Detroit Free Press"/>
+            </category>
+        </area>
+        <area id="/us/geo/Minnesota.html" name="Minnesota">
+            <category id="general">
+                <newsPapers id="star_tribune" name="Star Tribune"/>
+            </category>
+        </area>
+        <area id="/us/geo/Missouri.html" name="Missouri">
+            <category id="general">
+                <newsPapers id="st_louis_post" name="St. Louis Post-Dispatch"/>
+            </category>
+        </area>
+        <area id="/us/geo/New_Jersey.html" name="New Jersey">
+            <category id="general">
+                <newsPapers id="starledger" name="Star-Ledger"/>
+            </category>
+        </area>
+        <area id="/us/geo/New_York.html" name="New York">
+            <category id="general">
+                <newsPapers id="newyork_times" name="New York Times"/>
+                <newsPapers id="newyork_post" name="New York Post"/>
+                <newsPapers id="newsday" name="Newsday"/>
+                <newsPapers id="new_yorker" name="The New Yorker"/>
+            </category>
+        </area>
+        <area id="/us/geo/Ohio.html" name="Ohio">
+            <category id="general">
+                <newsPapers id="plain_dealer" name="The Plain Dealer"/>
+            </category>
+        </area>
+        <area id="/us/geo/Oregon.html" name="Oregon">
+            <category id="general"/>
+        </area>
+        <area id="/us/geo/Pensilvania.html" name="Pennsylvania">
+            <category id="general">
+                <newsPapers id="philadelphia_inquirer" name="Philadelphia Inquirer"/>
+            </category>
+        </area>
+        <area id="/us/geo/Texas.html" name="Texas">
+            <category id="general">
+                <newsPapers id="dallas_morning_news" name="Dallas Morning News"/>
+            </category>
+        </area>
+        <area id="/us/geo/Washington.html" name="Washington">
+            <category id="general">
+                <newsPapers id="seattle_times" name="Seattle Times"/>
+            </category>
+        </area>
+        <area id="/us/geo/Washington_DC.html" name="Washington D.C.">
+            <category id="general">
+                <newsPapers id="washington_post" name="Washington Post"/>
+            </category>
+        </area>
+    </areas>
+</ns2:kiosk>

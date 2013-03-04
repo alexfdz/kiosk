@@ -35,8 +35,6 @@ public class SchemaRunner {
 			System.out.println("\tAreas:" + kiosk.areasCount());
 			System.out.println("\tCategories:" + kiosk.categoriesCount());
 			System.out.println("\tNews papers:" + kiosk.newsPapersCount());
-			System.out.println("\tEmpty areas:" + kiosk.emptyAreas());
-			System.out.println("\n\n\n" + kiosk.toString());
 
 			JAXBContext context = JAXBContext.newInstance(Kiosk.class);
 			Marshaller marshaller = context.createMarshaller();
